@@ -17,6 +17,10 @@ This folder contains review-oriented Azure Bicep artifacts for the approved West
 * Log Analytics workspace and diagnostic settings
 * Subscription budget definition, tags, and a resource-group `CanNotDelete` lock
 
+## Demo reference
+
+* Live demo page: <https://peter-n91.github.io/hve-squad/demo.html>
+
 ## No-deploy boundary
 
 > [!IMPORTANT]
