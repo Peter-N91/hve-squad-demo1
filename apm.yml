@@ -1,0 +1,10 @@
+name: hve-squad-demo1
+version: 1.0.0
+description: APM project for hve-squad-demo1
+author: Peter-N91
+dependencies:
+  apm:
+  - Peter-N91/hve-squad
+  mcp: []
+includes: auto
+scripts: {}

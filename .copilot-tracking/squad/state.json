@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.1",
+  "updated": "2026-06-18T03:00:00Z",
+  "turn": 3,
+  "mode": "autopilot",
+  "stage": "final-human-gate",
+  "topic": "azure-web-app-westeu-60m",
+  "activeRoles": [
+    "architect",
+    "security",
+    "cost-manager",
+    "azure-architect"
+  ],
+  "openEscalations": [],
+  "blockingGate": {
+    "description": "Repo-only autopilot complete. Awaiting user validation and explicit approval before Azure activity dispatch.",
+    "blockingActions": [
+      "azure-cli-login",
+      "bicep-deployment",
+      "secret-population",
+      "rbac-assignment",
+      "resource-creation",
+      "cost-incurrence"
+    ],
+    "readyForDeployment": false,
+    "requiresUserApproval": true
+  },
+  "completedStages": [
+    "council-verdict",
+    "repo-only-implementation",
+    "artifact-review"
+  ],
+  "pendingStages": [
+    "user-validation-and-approval",
+    "deployer-dispatch",
+    "azure-deployment",
+    "post-launch-review"
+  ],
+  "notify": {
+    "approvalChannel": "in-chat",
+    "enabled": false,
+    "email": "",
+    "github": {
+      "handle": "",
+      "repo": ""
+    }
+  }
+}

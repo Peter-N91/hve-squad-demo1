@@ -1,0 +1,118 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "languageVersion": "2.0",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.43.8.12551",
+      "templateHash": "2748453487028642370"
+    },
+    "__bicep_exported_variables!": [
+      {
+        "name": "featureDefaults",
+        "description": "Default feature toggles for the Azure internal web app baseline."
+      }
+    ],
+    "name": "Azure internal web app shared types",
+    "description": "Exports shared review-oriented types and defaults for the repo-only Azure Bicep artifacts."
+  },
+  "definitions": {
+    "NamingConfig": {
+      "type": "object",
+      "properties": {
+        "namePrefix": {
+          "type": "string",
+          "metadata": {
+            "description": "Short workload prefix used in resource names."
+          }
+        },
+        "environmentName": {
+          "type": "string",
+          "metadata": {
+            "description": "Environment label used in resource names and tags."
+          }
+        },
+        "nameSuffix": {
+          "type": "string",
+          "metadata": {
+            "description": "Short suffix used to keep globally unique names deterministic."
+          }
+        }
+      },
+      "additionalProperties": false,
+      "metadata": {
+        "__bicep_export!": true,
+        "description": "Deployment naming inputs that reviewers should validate for uniqueness before any live deployment."
+      }
+    },
+    "EntraAuthConfig": {
+      "type": "object",
+      "properties": {
+        "tenantId": {
+          "type": "string",
+          "metadata": {
+            "description": "Microsoft Entra tenant ID."
+          }
+        },
+        "clientId": {
+          "type": "string",
+          "metadata": {
+            "description": "Client ID for the application registration."
+          }
+        }
+      },
+      "additionalProperties": false,
+      "metadata": {
+        "__bicep_export!": true,
+        "description": "Microsoft Entra application registration settings for a protected web application."
+      }
+    },
+    "ResourceTags": {
+      "type": "object",
+      "properties": {
+        "costCenter": {
+          "type": "string",
+          "metadata": {
+            "description": "Cost center or billing owner for the workload."
+          }
+        },
+        "dataClassification": {
+          "type": "string",
+          "metadata": {
+            "description": "Data classification label for the workload."
+          }
+        },
+        "environment": {
+          "type": "string",
+          "metadata": {
+            "description": "Environment label for the workload."
+          }
+        },
+        "owner": {
+          "type": "string",
+          "metadata": {
+            "description": "Owning team or approver alias."
+          }
+        },
+        "workload": {
+          "type": "string",
+          "metadata": {
+            "description": "Workload label used for governance reviews."
+          }
+        }
+      },
+      "additionalProperties": false,
+      "metadata": {
+        "__bicep_export!": true,
+        "description": "Minimum tag set expected across the repo-only Azure baseline."
+      }
+    }
+  },
+  "variables": {
+    "featureDefaults": {
+      "keyVaultPrivateEndpoint": false
+    }
+  },
+  "resources": {}
+}

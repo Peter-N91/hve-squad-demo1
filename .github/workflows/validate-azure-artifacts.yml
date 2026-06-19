@@ -1,0 +1,142 @@
+name: Validate Azure Artifacts
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '.github/workflows/validate-azure-artifacts.yml'
+      - 'infra/bicep/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - '.github/workflows/validate-azure-artifacts.yml'
+      - 'infra/bicep/**'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate repo-only Azure artifacts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Verify no-deploy boundary
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Validation-only workflow"
+          echo "No Azure login, deployment, or subscription mutation is allowed here"
+
+          workflow_without_guard="$({
+            awk '
+              /- name: Verify no-deploy boundary/ { skip=1; next }
+              skip && /^      - name: / { skip=0 }
+              !skip { print }
+            ' .github/workflows/validate-azure-artifacts.yml
+          })"
+
+          forbidden_patterns=(
+            'azure/login@'
+            'az login'
+            'Connect-AzAccount'
+            'New-Az'
+            'Set-Az'
+            'az deployment '
+            'az deployment group '
+            'az deployment sub '
+            'az deployment mg '
+            'az deployment tenant '
+            'az group create'
+            'az webapp create'
+            'az resource create'
+            'az resource update'
+            'az account set'
+            'terraform apply'
+            'terraform destroy'
+            'bicep deploy'
+          )
+
+          for pattern in "${forbidden_patterns[@]}"; do
+            if printf '%s\n' "$workflow_without_guard" | grep -Fqi "$pattern"; then
+              echo "Forbidden validation-boundary pattern found in workflow: $pattern" >&2
+              exit 1
+            fi
+          done
+
+          echo "No forbidden Azure login or deployment patterns found"
+
+      - name: Set up Node.js for markdown checks
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.4
+        with:
+          node-version: '20'
+
+      - name: Validate markdown frontmatter presence
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(
+            docs/architecture/azure-internal-webapp.md
+            docs/architecture/adr-app-service-over-containers.md
+            docs/security/azure-baseline.md
+            docs/security/access-model.md
+            docs/operations/azure-webapp-runbook.md
+            docs/operations/troubleshooting.md
+          )
+          for file in "${files[@]}"; do
+            test -f "$file"
+            first_line="$(head -n 1 "$file")"
+            if [ "$first_line" != '---' ]; then
+              echo "Missing frontmatter in $file" >&2
+              exit 1
+            fi
+          done
+
+      - name: Install Bicep CLI if Bicep files exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find infra/bicep -type f \( -name '*.bicep' -o -name '*.bicepparam' \) | grep -q .; then
+            curl -Lo bicep https://github.com/Azure/bicep/releases/latest/download/bicep-linux-x64
+            chmod +x ./bicep
+            echo "$PWD" >> "$GITHUB_PATH"
+          else
+            echo "No Bicep files found; skipping Bicep CLI install"
+          fi
+
+      - name: Compile Bicep templates when present
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find infra/bicep -type f -name '*.bicep' | grep -q .; then
+            while IFS= read -r file; do
+              ./bicep build "$file"
+            done < <(find infra/bicep -type f -name '*.bicep' | sort)
+          else
+            echo "No Bicep templates found; skipping compile step"
+          fi
+
+      - name: Compile Bicep parameter files when present
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find infra/bicep -type f -name '*.bicepparam' | grep -q .; then
+            while IFS= read -r file; do
+              ./bicep build-params "$file"
+            done < <(find infra/bicep -type f -name '*.bicepparam' | sort)
+          else
+            echo "No Bicep parameter files found; skipping parameter compile step"
+          fi

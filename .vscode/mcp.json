@@ -1,0 +1,27 @@
+// Consumer-owned MCP configuration for the hve-squad demo workspace.
+//
+// This file is owned by you, not the squad package. The hve-squad APM
+// package never reads or writes `.vscode/mcp.json`; you merge entries
+// yourself. See
+// `apm_modules/.../squad-mcp-capability.instructions.md` for the
+// capability-aware fallbacks and the recommended-servers template at
+// `.github/skills/squad/mcp.template.json`.
+//
+// drawio
+//   Official jgraph stdio tool server (npm: @drawio/mcp). Use THIS server
+//   in VS Code / GitHub Copilot — it opens diagrams in the browser draw.io
+//   editor. Do NOT use the hosted `https://mcp.draw.io/mcp` endpoint: that
+//   is the MCP Apps inline-render server, which Copilot does not support.
+//   Backs the squad's `diagram-rendering` capability; the Squad Azure
+//   Architect uses it opportunistically when present and falls back to
+//   Mermaid otherwise. For Azure icons, drive the `open_drawio_xml` tool
+//   with draw.io XML that references Azure stencils (mxgraph.azure.*).
+{
+  "servers": {
+    "drawio": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@drawio/mcp"]
+    }
+  }
+}

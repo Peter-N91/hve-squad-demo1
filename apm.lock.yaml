@@ -1,0 +1,3135 @@
+lockfile_version: '1'
+generated_at: '2026-06-18T15:15:54.236446+00:00'
+apm_version: 0.18.0
+dependencies:
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  package_type: apm_package
+  content_hash: sha256:e8c39ecd5c1fac771d109cccdb1ac05b652db249db3c9489956287c75f4f2668
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/accessibility/accessibility-planner.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/accessibility-planner.agent.md
+  deployed_file_hashes:
+    .github/agents/accessibility-planner.agent.md: sha256:08db6cc8b4bd7fb202af57336c4ca1546946d27febf60ba309faf939bd2afa46
+  content_hash: sha256:8f6fe4842c4167b01d926c2f8d160dcf8454487f1fd36f0f87c4970480fa8095
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/accessibility/accessibility-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/accessibility-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/accessibility-reviewer.agent.md: sha256:90de424ba76445acf6a2676dac50fdc764cf84989cc60f7c655d822353b75f18
+  content_hash: sha256:989dd2acd76f0a6f86206dfbeebb209c31a11d51722f1abf55f0cd5790d9eda9
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/accessibility/subagents/accessibility-skill-assessor.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/accessibility-skill-assessor.agent.md
+  deployed_file_hashes:
+    .github/agents/accessibility-skill-assessor.agent.md: sha256:0cc68dc8086f7b6f761169c0d08607ff4e3e1f87f073af68e9c543506eeac9a8
+  content_hash: sha256:1b831943ff263096adbee8acfe1e0ce835bc26b1d85e08d6c7de8e43786197f3
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/ado/ado-backlog-manager.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/ado-backlog-manager.agent.md
+  deployed_file_hashes:
+    .github/agents/ado-backlog-manager.agent.md: sha256:f1907af7e0c5943123eee7fce63963ef852284af6cd424b7cfb7c543d9f39bb5
+  content_hash: sha256:d9b6f830b92b9a336b03d5d76b9ab21717b2c9017ae81681bb1a563611ce25c7
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/ado/ado-prd-to-wit.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/ado-prd-to-wit.agent.md
+  deployed_file_hashes:
+    .github/agents/ado-prd-to-wit.agent.md: sha256:bc11dc0e63f8d5a90caa4124a70e9a44bd0acd0bf1277e0ebcd40b1acc1c909b
+  content_hash: sha256:aaa94325da09388a95ad7d63897eb878208eebe2e6dbc8c5101a9a088e7ff356
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/agentic-workflows.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/agentic-workflows.agent.md
+  deployed_file_hashes:
+    .github/agents/agentic-workflows.agent.md: sha256:042985c88b0a1dfa177b2644044afa3ff54b9fa70dfe903b928ab4c895e09c51
+  content_hash: sha256:56009b38628a5d68177ece16a62c5163ae637d359c8338994cb259bea9456ef6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/coding-standards/code-review-accessibility.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/code-review-accessibility.agent.md
+  deployed_file_hashes:
+    .github/agents/code-review-accessibility.agent.md: sha256:0aabd2b750031ec3f2c44d55b815e3021d04d0923569e72a1cb4bcbf7843c68c
+  content_hash: sha256:3735c5317bec78741f8f7f28e4513233456038e8076c8566e883248e101ce7ea
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/coding-standards/code-review-full.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/code-review-full.agent.md
+  - .github/prompts/code-review-full.prompt.md
+  deployed_file_hashes:
+    .github/agents/code-review-full.agent.md: sha256:f3b9990be319522852150001e3616dd8986b3a49830020cd406e97a7c8e0f94a
+    .github/prompts/code-review-full.prompt.md: sha256:d3cbdb19a3d1d3f3d5bc2799d8e382788b067a991f2540690de30e0a4bf23a5a
+  content_hash: sha256:74d39674709567eb5d706b5a745227c290b589638f70b88ca2a84d3c85ce3fc1
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/coding-standards/code-review-functional.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/code-review-functional.agent.md
+  - .github/prompts/code-review-functional.prompt.md
+  deployed_file_hashes:
+    .github/agents/code-review-functional.agent.md: sha256:edc7e8d476d1ab7a0db35ea51454fb1abbfbe9070ff27e124869b24338fe9afe
+    .github/prompts/code-review-functional.prompt.md: sha256:9fc7369da2b0325f1d248b06d9968d8dd718e8c78bf7c4021e0f3f2117ba292b
+  content_hash: sha256:7bc813a97a66fcd7ff3176f6f82ff9494cec2b9da2c94d9a338b6761ba5cb86f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/coding-standards/code-review-standards.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/code-review-standards.agent.md
+  deployed_file_hashes:
+    .github/agents/code-review-standards.agent.md: sha256:6c910a3a90a7a97ed274f78e6ca97efdf85bc1a0bdabc81c3087e5229e7dea93
+  content_hash: sha256:87cb7b5692374c7b0ffd7c39a851712e81a4910e540a8c62f3d72262f8912325
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/data-science/eval-dataset-creator.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/eval-dataset-creator.agent.md
+  deployed_file_hashes:
+    .github/agents/eval-dataset-creator.agent.md: sha256:a5d45cb77326437393b1de1d6b8f2db25a9877cba4c0f0e36ca5a4b280ad99e9
+  content_hash: sha256:5b5495bcbb40ca6b01c657ddeb64030b37d1cb61251a7a261611dc5611c08673
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/data-science/gen-data-spec.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/gen-data-spec.agent.md
+  deployed_file_hashes:
+    .github/agents/gen-data-spec.agent.md: sha256:bd968b146f06652e7734d6445c9c5f92510a87b52f74ef2a91d0c5df3c5a07c7
+  content_hash: sha256:78c8d91187db8f1ae1069a720dd077cb45a23d6d1a7ba841062d063aa1e75fb9
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/data-science/gen-jupyter-notebook.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/gen-jupyter-notebook.agent.md
+  deployed_file_hashes:
+    .github/agents/gen-jupyter-notebook.agent.md: sha256:5b71d52f74e1b304093e6203c26b4bb4c2913f9002e96a2a117fcc9cd81cd0b1
+  content_hash: sha256:16fdfa8cb4c64ceb0ff18f144280a1af41faa5114b029253cefb8decacc30b45
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/data-science/gen-streamlit-dashboard.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/gen-streamlit-dashboard.agent.md
+  deployed_file_hashes:
+    .github/agents/gen-streamlit-dashboard.agent.md: sha256:514eb910d7018a8098730d46d4710a1c340381d92073afdca82bf131402152a0
+  content_hash: sha256:3793786d8b941374e3e22ae2e83391e049ea3171efd6337ea03f040b8ffb7723
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/data-science/test-streamlit-dashboard.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/test-streamlit-dashboard.agent.md
+  deployed_file_hashes:
+    .github/agents/test-streamlit-dashboard.agent.md: sha256:0e0ced7e084bffcea014dade797aa1fa83f67fddd54601283fa697c4d90d8f43
+  content_hash: sha256:bc0da315f4474a9bb7430f76c5d9f70a60b7ab67258dfed83627a6985ba97343
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/dependency-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/dependency-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/dependency-reviewer.agent.md: sha256:b4b23dad222642995d71804165346fa4d3fd3770ffe6a976c802867c3a0e4fdb
+  content_hash: sha256:181c34da42d0f7460a8032f6874d30d4bb9f16790f6d8be1e4d9f083854d0b66
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/design-thinking/dt-coach.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/dt-coach.agent.md
+  deployed_file_hashes:
+    .github/agents/dt-coach.agent.md: sha256:2118d3535b71116e26892bca40544feac32be2b696922198931cefdaaa4b548a
+  content_hash: sha256:ec7e45d961ceae05e8ae692ba7c53643b0f6fb17ecf33e57ecc790bc18486939
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/design-thinking/dt-learning-tutor.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/dt-learning-tutor.agent.md
+  deployed_file_hashes:
+    .github/agents/dt-learning-tutor.agent.md: sha256:0994c13c1d164273f8f881854c8e4dcc9b49b236f1c5cb0a79ba9c55b56ef137
+  content_hash: sha256:f08a791112cf3977cb5c978c005736c551c84f8525eb7b36b770c22ee175e8d3
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/doc-update-checker.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/doc-update-checker.agent.md
+  deployed_file_hashes:
+    .github/agents/doc-update-checker.agent.md: sha256:109fe0c2e9d152353943ac9293d4ef7486c218285553ba46ff10a2efaa52359a
+  content_hash: sha256:d225ff2dca9d3f1db109822f0eeaca54afbde3eaa370a08c3ea51d62709ddc42
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/experimental/experiment-designer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/experiment-designer.agent.md
+  - .github/instructions/experiment-designer.instructions.md
+  deployed_file_hashes:
+    .github/agents/experiment-designer.agent.md: sha256:6032dbfa9a7eed8e19fb221ad7bb99d91918af34fd3e86ac6386a3d7978b5d51
+    .github/instructions/experiment-designer.instructions.md: sha256:d36b0c369d24bab29cda8231a13f3f14ed28badb9a435fd3133e33ce50760414
+  content_hash: sha256:bfcc526627987c104be3acad29e9de8b2c36d5d604b4ee69e141a95404458c6c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/experimental/pptx.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/pptx.agent.md
+  - .github/instructions/pptx.instructions.md
+  - .github/prompts/pptx.prompt.md
+  deployed_file_hashes:
+    .github/agents/pptx.agent.md: sha256:4ab310cf9e40c2a6b78621d2a978ac53cb01a32e6856612bfc32c0bcc99fbb14
+    .github/instructions/pptx.instructions.md: sha256:c6ef569d8a3a60832c0058256cab4486287f4bbf3f75983fb2bd04778ee563dd
+    .github/prompts/pptx.prompt.md: sha256:1b20e7e7c7570935f743932297179399afddb42d08867d7c77cc6629f427c983
+  content_hash: sha256:262604246f7b0020f84abdc1e598b66ec4e8b79861f6cee4f2885a05aca12e98
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/experimental/subagents/pptx-subagent.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/pptx-subagent.agent.md
+  deployed_file_hashes:
+    .github/agents/pptx-subagent.agent.md: sha256:614bbcc1d355c5dddc8544468fc8fe7d9e0a337a0e2f519b6d1cf04823cb8c2c
+  content_hash: sha256:6bcac0fa941a7c3be67f656d499c6752a00239a4f6dd337d0788d3a55e73e8f7
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/github/github-backlog-manager.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/github-backlog-manager.agent.md
+  deployed_file_hashes:
+    .github/agents/github-backlog-manager.agent.md: sha256:ca102400496ee8e5765d6ae865d2c3563f746dae9a0bf57e76801918fb3c3eed
+  content_hash: sha256:9d79ec7de468066fa7b2dec01e9f812e1e3dd12f66ba87ac9d79e8ee90392687
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/doc-ops.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/doc-ops.agent.md
+  deployed_file_hashes:
+    .github/agents/doc-ops.agent.md: sha256:974feca53b24d78984905f04e30ce66c77b42e224ffce82ba1a8f164d3fc9425
+  content_hash: sha256:5f54f6f63e4293953311bc21652391b9fccb4ae53790a4b7e8b952177b548cbc
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/memory.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/memory.agent.md
+  deployed_file_hashes:
+    .github/agents/memory.agent.md: sha256:a1e113b8af1b2b2dd2d0862e024a2b5222c52b677b0bace0c05c15dcd0633a3b
+  content_hash: sha256:beed6e87f641696b78010e98fde15c4df955b239f4b174903ec51f62004f5efe
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/pr-review.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/pr-review.agent.md
+  deployed_file_hashes:
+    .github/agents/pr-review.agent.md: sha256:828abac75a7330ff4b5262a66b22c225b6e0667a89dfd89231be309a84320c97
+  content_hash: sha256:72a310abe1d2520783ed0ef0cbefd0dc12ab0d870b65d009a3f9d481fc4e8d79
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/prompt-builder.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/prompt-builder.agent.md
+  - .github/instructions/prompt-builder.instructions.md
+  deployed_file_hashes:
+    .github/agents/prompt-builder.agent.md: sha256:b0ae06cf992d483c93daebe344619b4a9d8c685eda6172fcd7751fa13ecfffca
+    .github/instructions/prompt-builder.instructions.md: sha256:450913592a2726ae0c99560531cb1298130195a8b5542c07843c2dc3a3137cd8
+  content_hash: sha256:1f67c19fb8cd8fdc5a802cbb59484a9fcc8a48e4e134580c0a129900cb85ef7b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/rpi-agent.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/rpi-agent.agent.md
+  deployed_file_hashes:
+    .github/agents/rpi-agent.agent.md: sha256:97900ac2146e21d255117591a783768c8ce36eee876d70a95ae392c07e8ca239
+  content_hash: sha256:02cc9ca55438f1b5cbe5c6ec5ee932c054073d5be7d331aceb335ed46cbc3ac6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/implementation-validator.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/implementation-validator.agent.md
+  deployed_file_hashes:
+    .github/agents/implementation-validator.agent.md: sha256:7adf4d6fc5d7acfebe153c47bf535a9268dd155047fa326ca5cbcb1160e458a9
+  content_hash: sha256:0ecc6cd41a0a6932e819765daf13c1605200fc41999ee5cca99611bf35032dc5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/phase-implementor.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/phase-implementor.agent.md
+  deployed_file_hashes:
+    .github/agents/phase-implementor.agent.md: sha256:42dadeb765559f4b5c596d605b06dacc57e1f55c96b9432c64b0ef662d175ef0
+  content_hash: sha256:3f94b18d2c928702e4e707321a1f690dc7afb1a81b1a4ad1b0218fdbe86cb2d0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/plan-validator.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/plan-validator.agent.md
+  deployed_file_hashes:
+    .github/agents/plan-validator.agent.md: sha256:5b790217f009c4f5f13b7f4cd302b0c963c7879e6a55a4df93e84d143a85a71e
+  content_hash: sha256:3a0bfdf83cbff9f230e3ef93eaa3fe1c213c4c9d401476d949efa3d8960130bd
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/prompt-evaluator.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/prompt-evaluator.agent.md
+  deployed_file_hashes:
+    .github/agents/prompt-evaluator.agent.md: sha256:0bf88b30965542c2d3cd23d72eaf3b2cd1dc38c4889ae10eeefe0f5142da0ba1
+  content_hash: sha256:42c27243a2c40e731d5e198afec15d77810afe4aa866948bde5f4f9576615df4
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/prompt-tester.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/prompt-tester.agent.md
+  deployed_file_hashes:
+    .github/agents/prompt-tester.agent.md: sha256:ee1413e6c5ced77f94df8939ddbcad0e6ce9340931199e17d9ec0d2b6ce3eba7
+  content_hash: sha256:f109f2d8bd310153378cc579bbe03ebf9dc47e2c5ce41f745f18608233e224ad
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/prompt-updater.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/prompt-updater.agent.md
+  deployed_file_hashes:
+    .github/agents/prompt-updater.agent.md: sha256:b9aef47b065b82e13c646f49579df726ac8d1d130ebe3aafd0b63b09f930d081
+  content_hash: sha256:3f08a168ed46f9f83b3c9c48206420fe9507a225878410fe5bcb72e563616cc0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/researcher-subagent.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/researcher-subagent.agent.md
+  deployed_file_hashes:
+    .github/agents/researcher-subagent.agent.md: sha256:3bb673f475d28cbc43ad70d8223d951bd674ffe7e1923b425d1365eaca68042c
+  content_hash: sha256:322192a126be09773b8a19fb8933c8ff2896887d0eac9249d8f9edbf4ed99ad4
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/subagents/rpi-validator.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/rpi-validator.agent.md
+  deployed_file_hashes:
+    .github/agents/rpi-validator.agent.md: sha256:5b8fd53a9d19b17a1ff6924c2fe724b160f98c40d6a28119e4f1f5d5f94ffb45
+  content_hash: sha256:04178b6b41ac99cffc0e29719e19e5637c2eb715729685531ecc97ff6f977e69
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/task-challenger.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/task-challenger.agent.md
+  deployed_file_hashes:
+    .github/agents/task-challenger.agent.md: sha256:4b437be5bb09f7173a2302f2fd1b14b93f70ad6faa8f9b91501f9d13ff086dfa
+  content_hash: sha256:aea764b2de7077f76b5dc23251a0e521c4227ddc92dac2155657d79c43e2b40c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/task-implementor.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/task-implementor.agent.md
+  deployed_file_hashes:
+    .github/agents/task-implementor.agent.md: sha256:e42568dddd78fff5fcd3ade8965800074cb2a67b556ccdbdb95053c7e6c2c2e5
+  content_hash: sha256:3cd28911a32f11af2003b01efdca1adbd7da583b8579d14754a00b8e6646ac1f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/task-planner.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/task-planner.agent.md
+  deployed_file_hashes:
+    .github/agents/task-planner.agent.md: sha256:42c0aa08f7e760a7e02009bacc22abc8b49cfacc387dc64756ae6029ead14f19
+  content_hash: sha256:d8f93b4f224292030efc7c5a4a828acdfc658add850da631e1d5c0271784825c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/task-researcher.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/task-researcher.agent.md
+  deployed_file_hashes:
+    .github/agents/task-researcher.agent.md: sha256:b13fae7c0fff21c81562964fedc10d98ae0206633eaca1ca7a7de7183e6eb223
+  content_hash: sha256:4175ce481f2df311383d2fa8c3bbbc38afa23ee77fd8b464e0a7e4033854f3c0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/hve-core/task-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/task-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/task-reviewer.agent.md: sha256:08cda4ce86107e1020c9a40aa3b984c3e90dd8095699f310520ede73c1d3ce8c
+  content_hash: sha256:cac3ec1f4819193beb11b59b6c79ef4c9cb66e6eaddfe14ad40954687d2383dc
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/issue-triage.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/issue-triage.agent.md
+  deployed_file_hashes:
+    .github/agents/issue-triage.agent.md: sha256:062cf85b0d6cfa644f1bd6f3de035ec4a234c96b55b03bb019864e8fb6a8207f
+  content_hash: sha256:aaa954fb53230906de03decc8824c79e12e83d3f3dd7f9ea843b41f2f3a65be5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/jira/jira-backlog-manager.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/jira-backlog-manager.agent.md
+  deployed_file_hashes:
+    .github/agents/jira-backlog-manager.agent.md: sha256:11a4f8ba969b6652e5626ab2f48afb084e5b78b377fa69201e9f95282587b583
+  content_hash: sha256:06ce51f5a169b2c7834d77672b55292eb5fc9aaf82923f68861a969f02da505b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/jira/jira-prd-to-wit.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/jira-prd-to-wit.agent.md
+  - .github/prompts/jira-prd-to-wit.prompt.md
+  deployed_file_hashes:
+    .github/agents/jira-prd-to-wit.agent.md: sha256:74e1c1dcf3544eb5246b882855ed837213959a0d5c3a262f98cc5f6116b7dcb3
+    .github/prompts/jira-prd-to-wit.prompt.md: sha256:2beebe054276a69e93e3fcc6020137a2ed8e5fbd800c9419d7ee6f87b7ad31f7
+  content_hash: sha256:a4c310b5422e952d62581eeb62c046701370fe791516b645e9b671b371a45208
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/adr-creation.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/adr-creation.agent.md
+  deployed_file_hashes:
+    .github/agents/adr-creation.agent.md: sha256:db324e75f00cab2cbbcd93a473825a1d42271883c7624133430997d71f5c0fff
+  content_hash: sha256:cf5bdad3d02a614a9a75e5b7a7836248f3886d237f536f6989ed47b7bb333a7f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/agile-coach.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/agile-coach.agent.md
+  deployed_file_hashes:
+    .github/agents/agile-coach.agent.md: sha256:68b9fb81e90424ab8b95caf2ea27b661014fa2cb90c33616f2b39e939df89ae2
+  content_hash: sha256:c65d87f2ee09180a209db6b9fa53b35c35027cbd54ac2b4c76bc887c5dd2ca02
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/arch-diagram-builder.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/arch-diagram-builder.agent.md
+  deployed_file_hashes:
+    .github/agents/arch-diagram-builder.agent.md: sha256:18d0076387d5daf1fd164f3d85ea7652ab8979caf1981d6126f5c78a293dace5
+  content_hash: sha256:1772e553ad0b13433545d07240c470106f05d76d3cea4f09ddfa0641c2d0734a
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/brd-builder.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/brd-builder.agent.md
+  deployed_file_hashes:
+    .github/agents/brd-builder.agent.md: sha256:e233e0415dab8c54fceadc2263840421c6d5825b41a205c67c51a261b9f9fcb9
+  content_hash: sha256:8805e1ce06d13169966ae0cf0614dddf687661adc12c27ec8ce82c2ff40b90cf
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/meeting-analyst.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/meeting-analyst.agent.md
+  deployed_file_hashes:
+    .github/agents/meeting-analyst.agent.md: sha256:d7cbcb1f7947f45a3ba04b2d1fc8cf6954abe5580834d06820f9a936dab87673
+  content_hash: sha256:461513d2e24f768faab4347f092fd707376ae577d7cdb8ba9d9c81650d28322c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/network-isa95-planner.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/network-isa95-planner.agent.md
+  deployed_file_hashes:
+    .github/agents/network-isa95-planner.agent.md: sha256:9426f9ad81839385cca59af81459f100f2d41d12dc18a07d46796222f2c9e96c
+  content_hash: sha256:3a6eda5045f177c106574974f0b5d90bc2fd27c7eaea5b83d5b67fa5d10a9900
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/prd-builder.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/prd-builder.agent.md
+  deployed_file_hashes:
+    .github/agents/prd-builder.agent.md: sha256:21db5563c0aa164603d744cfb849cbc317233ee59e68836566edf703b72b9b1a
+  content_hash: sha256:84336a171255250f3e6cf25a48d29797c81a33754637def43a4342dcffec4081
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/product-manager-advisor.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/product-manager-advisor.agent.md
+  deployed_file_hashes:
+    .github/agents/product-manager-advisor.agent.md: sha256:4f766cd7db14c41f2416e662968e8505371c456093e6e2058ebf6390a60d84c0
+  content_hash: sha256:e49ac5428c07cccbf286571f6e26487ff9ca75fc9192bd91a85349731f5f1083
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/subagents/brd-quality-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/brd-quality-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/brd-quality-reviewer.agent.md: sha256:238486f6561a9c75b526b8ded22923d0cff1166d4cf735f1f80f67c075facb88
+  content_hash: sha256:c0b24b5a63fd696f126a288bf03be061846a009183c87acda0204b5939903cb6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/subagents/prd-quality-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/prd-quality-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/prd-quality-reviewer.agent.md: sha256:beca32ce7cd47c01f8570854636eb74d18ddb87042e6a8864cbd8d5af8504a45
+  content_hash: sha256:fd4eab1130d5d7dab1808b2b6fe63221121a7a41dea1216e44a5263f243211fb
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/system-architecture-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/system-architecture-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/system-architecture-reviewer.agent.md: sha256:fbfe42c63702ba201a2f57dfa2741fb7b1eadfaf1af6f0624618cdce6e12eece
+  content_hash: sha256:1d4eab3f1a337e8853469e7dfc7fdeb57af57d5fc5c48b124779ccab8ecfda16
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/project-planning/ux-ui-designer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/ux-ui-designer.agent.md
+  deployed_file_hashes:
+    .github/agents/ux-ui-designer.agent.md: sha256:2845ee33181e7a15454a0b16ad6c9e9d59b243afd3955268679c60d20ab18ace
+  content_hash: sha256:01e59bf37af65d52a2b2a07460167ec80d425dbf4955afe748d07a7057a71e0d
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/rai-planning/rai-planner.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/rai-planner.agent.md
+  deployed_file_hashes:
+    .github/agents/rai-planner.agent.md: sha256:a1eba8c09a9c2eb77ed8177e7536d29d63b97a4a1593a78b9736184b91645a14
+  content_hash: sha256:24bd7b6d6445a081d34d66ea1992e01162a66d773331ba82d8dd900e6878f273
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/security-planner.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/security-planner.agent.md
+  deployed_file_hashes:
+    .github/agents/security-planner.agent.md: sha256:e3dc755d7248d52f2a17282da3b301db90afc15ddfab691acebcc9ea9faf93fa
+  content_hash: sha256:72393246d92462373674d959b41a315f54fa83aab005842398cf0187a1ecb292
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/security-reviewer.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/security-reviewer.agent.md
+  deployed_file_hashes:
+    .github/agents/security-reviewer.agent.md: sha256:7f1dbc2e493c2192d195a4bc832dd3172469e1b779c1236d722fbeedb1f6ac0f
+  content_hash: sha256:c3304eb38fd9132e41d907710c504f643678e61cf7fdbbef731b44505e22e8c4
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/sssc-planner.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/sssc-planner.agent.md
+  - .github/instructions/sssc-planner.instructions.md
+  deployed_file_hashes:
+    .github/agents/sssc-planner.agent.md: sha256:bc509995e865b734f2fd4009c7636dcee842fba6a9c6bdb619d02ea7116696de
+    .github/instructions/sssc-planner.instructions.md: sha256:d57c70034550c29a4cc78f3c8e8bd03eb406f71d5a663e525b54580b7a0b3f75
+  content_hash: sha256:b2b8186bad056850545161235bd7b4651ebeabab5df8ba409de0685c04c4faa7
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/subagents/codebase-profiler.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/codebase-profiler.agent.md
+  deployed_file_hashes:
+    .github/agents/codebase-profiler.agent.md: sha256:e16a9925651535779ead57163d297e136d1f8ec9e147da375b93a933dd44b17d
+  content_hash: sha256:e597c4ff748f3d7c8138225017fc334747e61a92b81f4a53c8677325b531d1b7
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/subagents/finding-deep-verifier.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/finding-deep-verifier.agent.md
+  deployed_file_hashes:
+    .github/agents/finding-deep-verifier.agent.md: sha256:4c189384f821829bfa0463df44fe3d064433d79d7ab5908b1a89183bc45a6f6f
+  content_hash: sha256:a637b9f4f82ce9109aaf1206ab7a889938c82c564accc3e031596d13b4c3ef41
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/subagents/report-generator.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/report-generator.agent.md
+  deployed_file_hashes:
+    .github/agents/report-generator.agent.md: sha256:66a64c777c8e03f9a3a5cf4af50e98a9e53eb13508715de2da4fa4336dba114d
+  content_hash: sha256:29675b3b41a736a4b94d7d0fbce2c5feb41ebadb124706416a6c5036a50f5ae7
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/agents/security/subagents/skill-assessor.agent.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/skill-assessor.agent.md
+  deployed_file_hashes:
+    .github/agents/skill-assessor.agent.md: sha256:a655fbfe691da6f8a2c9dfde31cc1659dca4d9bafda334a0184f4faacb8dafbe
+  content_hash: sha256:e810e7795a215b8de7e99e5c3b8d5c393f7c9e9ef000b37fd57ef53eed38386f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/accessibility/accessibility-identity.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/accessibility-identity.instructions.md
+  deployed_file_hashes:
+    .github/instructions/accessibility-identity.instructions.md: sha256:9229a3b327c5291672a15d41d523687149c0a2fb494136d51297818826562448
+  content_hash: sha256:7e98f70ebc1bf5e1794b5d89194a0737c3f0dfc82eb633bfb86ffc9168de0e8f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/accessibility/accessibility-license-posture.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/accessibility-license-posture.instructions.md
+  deployed_file_hashes:
+    .github/instructions/accessibility-license-posture.instructions.md: sha256:247d0ad9f8cda1dcfe1435a31fe702b5f3e2740f178b9528c11b4b5493c8cef9
+  content_hash: sha256:23e043e021b8542372e87dccbfede8c2cc442eef608edbf6ca087daece693c77
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-backlog-sprint.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-backlog-sprint.instructions.md
+  deployed_file_hashes:
+    .github/instructions/ado-backlog-sprint.instructions.md: sha256:b0982a17857241b281801142164e803917581b15190b202e6be0c96672bb000b
+  content_hash: sha256:e015486de1e6e4ec3821e5335327de5fbc1062ffb3b08fcb85bd1280981fb70a
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-backlog-triage.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-backlog-triage.instructions.md
+  deployed_file_hashes:
+    .github/instructions/ado-backlog-triage.instructions.md: sha256:11f05b4b20a40e213e043b4ade4cf62380748997e72765b6fc490cb971597357
+  content_hash: sha256:973dcd39ec2aa5b0df798e1ae8c8c66cbb7cbee8ea46337cda909438ff56cc20
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-create-pull-request.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-create-pull-request.instructions.md
+  - .github/prompts/ado-create-pull-request.prompt.md
+  deployed_file_hashes:
+    .github/instructions/ado-create-pull-request.instructions.md: sha256:be733b2a29324b1da64f9d547290157b637e5a92e9af17f72cbc545d1c986034
+    .github/prompts/ado-create-pull-request.prompt.md: sha256:d900e97033e532f2d9e28d7dd832bf50c6f6391affbd90a9dd2e929926ab7059
+  content_hash: sha256:9b63f2b196e9a3f4d85af70614466758531559467bbeeacbf30a6a20f8796109
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-get-build-info.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-get-build-info.instructions.md
+  - .github/prompts/ado-get-build-info.prompt.md
+  deployed_file_hashes:
+    .github/instructions/ado-get-build-info.instructions.md: sha256:840adb18871d1d60ede09165b98f6ffd4c3c6e85d6bffa9bfeb2ab4dfeb4e095
+    .github/prompts/ado-get-build-info.prompt.md: sha256:203f96a6806e51846483f4d524ea59f5548783d849c70ed7987a25b6ad8e212c
+  content_hash: sha256:329d4e3544ff0d364329c9e3985341a2cb83c017654bd3491e896d49ac739f63
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-interaction-templates.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-interaction-templates.instructions.md
+  deployed_file_hashes:
+    .github/instructions/ado-interaction-templates.instructions.md: sha256:e29df9a5dc1e2917cac58156dfa24d751fe8c74704be6dc54a1c7db08f38a658
+  content_hash: sha256:d2edba082cc47decd87b73baf9e713b58e01ea340bd8702b5ac1507627a0e897
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-update-wit-items.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-update-wit-items.instructions.md
+  - .github/prompts/ado-update-wit-items.prompt.md
+  deployed_file_hashes:
+    .github/instructions/ado-update-wit-items.instructions.md: sha256:05189bb445e68174dc300e4c720af1a592d80dde966b61141e2f4b0d42649afd
+    .github/prompts/ado-update-wit-items.prompt.md: sha256:5d0aec3064bd442fe945293092739513ab6de759a809989d80c64984a509945e
+  content_hash: sha256:642536fae2d84676a570700f58ed2420c83122d0224f1f2002dc58b1a19060ad
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-wit-discovery.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-wit-discovery.instructions.md
+  deployed_file_hashes:
+    .github/instructions/ado-wit-discovery.instructions.md: sha256:0d9bea3bf97ac0ab9770c286fe7d03c4e3b1fd448ee8ef9b79afb7ca64c7c587
+  content_hash: sha256:75be4f7f88523cb28fc394c1f8f2c4fda69afa5f28303e474a274e05069cda13
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/ado/ado-wit-planning.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/ado-wit-planning.instructions.md
+  deployed_file_hashes:
+    .github/instructions/ado-wit-planning.instructions.md: sha256:b3a7bc67b4a30d070e0e33fb72c4df4af869252973229aab004ae9fbff0be573
+  content_hash: sha256:9e1ac68a127d5f38a813b9fbe6108cbe051cb514a3b4f5bc6a78e75d141e9412
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/bash/bash.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/bash.instructions.md
+  deployed_file_hashes:
+    .github/instructions/bash.instructions.md: sha256:c08475d8ef3ac532e012234a25fc833ff8922f8385bfef0e5e25527dbccf187e
+  content_hash: sha256:beadcb10fa84854a2bee17b1a0187b7b97da7a974528692a96c4adbb8fc96324
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/bicep/bicep.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/bicep.instructions.md
+  deployed_file_hashes:
+    .github/instructions/bicep.instructions.md: sha256:a9661cd1f76d1a37a480d4a2b193dc05025dece6f355c140705ad31a1231d61c
+  content_hash: sha256:857059d42cbf7731d89585d05470d14df8398729db3d4cd85ddc6e83a4be421a
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/code-review/diff-computation.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/diff-computation.instructions.md
+  deployed_file_hashes:
+    .github/instructions/diff-computation.instructions.md: sha256:a54984c98eb26732ed19d6e03fab88a0669c701226c29814cca78e1fb36ceb9b
+  content_hash: sha256:b754cec646202d140b557fee8ba68c1e581a2991baea6a7cef2a325322c242fa
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/code-review/review-artifacts.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/review-artifacts.instructions.md
+  deployed_file_hashes:
+    .github/instructions/review-artifacts.instructions.md: sha256:7096025294523e8a625b1934b2f477f64b7494444f65bc670db6c339f2906ed9
+  content_hash: sha256:ada88c6507eb44595051c0cc059464529b3251aba0bb2d29f65b584c88df95d0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/csharp/csharp-tests.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/csharp-tests.instructions.md
+  deployed_file_hashes:
+    .github/instructions/csharp-tests.instructions.md: sha256:cef2d45f1e48fbdba4b8c72ad538e8091fdb75f71dc38f3f8dce9ac80c722789
+  content_hash: sha256:82681f5fdd1ca879cc4b14418b056e87067cda6fd42f7e6f78660bc1d429d595
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/csharp/csharp.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/csharp.instructions.md
+  deployed_file_hashes:
+    .github/instructions/csharp.instructions.md: sha256:a7c1c7856ac6028b22daa621d50fe1ca05f77bea370ddc674ed5d8c5b0b35627
+  content_hash: sha256:a027b04b5f25504c92a16c2760b56165e937f306901df97af94c6358d40eaaeb
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/powershell/pester.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/pester.instructions.md
+  deployed_file_hashes:
+    .github/instructions/pester.instructions.md: sha256:49c8c55dc2cdb5e18ebed53df1c03a40c946f053bae67fcc46c46a9168e93a5e
+  content_hash: sha256:675c994fa5ca290c54bf5315bc7121838c39326b70dfee4e5705b87cb5b96573
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/powershell/powershell.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/powershell.instructions.md
+  deployed_file_hashes:
+    .github/instructions/powershell.instructions.md: sha256:085866b36b551e0b0f58f2aee7eb31da4e25a0a2f687424b37b1b6f3518ac002
+  content_hash: sha256:8361a4b984aa08ac940a6865b33f8b9efea42e4ed6394bbbf370f6869adf963f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/python-script.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/python-script.instructions.md
+  deployed_file_hashes:
+    .github/instructions/python-script.instructions.md: sha256:aa4bb8579c74a3040a1864f444288eb47ddce012269dba6089c9fb4639920bbb
+  content_hash: sha256:ef738bbd0a4739ad7d6dcdef514ca75921a496adcaad5de9735bd4bfb7f05947
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/python-tests.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/python-tests.instructions.md
+  deployed_file_hashes:
+    .github/instructions/python-tests.instructions.md: sha256:ce0df63c6f7a67848c6cd3f8d27f8ec5b036b0b25e3ef1f3e9d33a0c132c5ec9
+  content_hash: sha256:23946b970be30d1a85d96cc639faa01f4f7db07d2bb99ea631f55a2e9223cd93
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/rust/rust-tests.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rust-tests.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rust-tests.instructions.md: sha256:3ad9cdb70c861a88e80e1d168d2f073b5870464993c0f7311f960ab618b5879b
+  content_hash: sha256:58c504ee06bf0a555b25da38d5d240148565dd3ef52e693a083dd16a2dfc33ad
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/rust/rust.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rust.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rust.instructions.md: sha256:c19e7db0f405cda5c45a535e59a0f954052d7b4f97c3e70476184f182da38d95
+  content_hash: sha256:ab18944a71809d14f2062a03f7b8261d4c1c4468038c12f0a48498a1da5ad9ba
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/terraform/terraform.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/terraform.instructions.md
+  deployed_file_hashes:
+    .github/instructions/terraform.instructions.md: sha256:b394158feb4a427ba68c8f03ceef00f6ecb6ee26bae5dd72c22d3112bff2e227
+  content_hash: sha256:5d3b517719a0b62bd14cc4f049963ee1c9da9f981f390ca310a7b7050268cee8
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/coding-standards/uv-projects.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/uv-projects.instructions.md
+  deployed_file_hashes:
+    .github/instructions/uv-projects.instructions.md: sha256:a9b801618141a33eb3663dc6ac808d87553ff49ba59bc2bd6ad7203e0cb07bce
+  content_hash: sha256:122b8099b58ca1fad9594865e804c12947f048b53cdb80240083802011ce7c5e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/docusaurus-edits.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/docusaurus-edits.instructions.md
+  deployed_file_hashes:
+    .github/instructions/docusaurus-edits.instructions.md: sha256:5ab4df845ee79a98263a90a11eafad95510459d8b990028eaeb5bc8a1e9bba50
+  content_hash: sha256:b60af5c769ddbfe66fa72ca4188ef4aa69dde2e77ac798ba00b863ce33db2f50
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/experiment-designer.instructions.md
+  is_virtual: true
+  content_hash: sha256:bfcc526627987c104be3acad29e9de8b2c36d5d604b4ee69e141a95404458c6c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/graphify.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/graphify.instructions.md
+  deployed_file_hashes:
+    .github/instructions/graphify.instructions.md: sha256:057cbc020fe76700c8cffbeb1d3de0c0f0b28ad7ab3cce40e8b995d5c83649a0
+  content_hash: sha256:8b6e9475777b5b2416552e276fe4ef175e036beb055d641e91ec5c7bcf915471
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-bootstrap.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-bootstrap.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-bootstrap.instructions.md: sha256:13ef2e4343482d131d1a6bd4fe6091190e0241359817ffcc254d1e06a106b317
+  content_hash: sha256:5984fd97c9de1552f0768ed11f4445ebae7f96ad6d9f04513f9556bb34509c7d
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-destinations.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-destinations.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-destinations.instructions.md: sha256:7304bc42fa6293124eb9384a1ef0c2deab6b6704ca1cb014e503c7fcdf9fdce8
+  content_hash: sha256:4607363046655db1e5e72cf2bd1755deed0717c21db94f91c82cd863ccf4cb4b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-human-record.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-human-record.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-human-record.instructions.md: sha256:ff32fa9cf92184b8e459f9f9ccb23d86665ae2ffd12851c3affc3162a21f5d25
+  content_hash: sha256:a53097a0dfd4673fceb44f25aa1d656cb27e3e1f54e0cebcbd736870e36b0c8b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-log-hygiene.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-log-hygiene.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-log-hygiene.instructions.md: sha256:f1d6cdf09d963993115bb86a1705910a0cdc534a889f33480ff74675f7c448be
+  content_hash: sha256:f51ec28207c12163a8ac92b29ae544618e86bdb81a877dbd34024bd49dfee4e4
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-seeding-patterns.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-seeding-patterns.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-seeding-patterns.instructions.md: sha256:88394665704ec00897a0ac550251c011b71f7c68fcf0c335b59c29e496d990f4
+  content_hash: sha256:7ec261adf7c7e17832fe5445a3d75fb101bfe4bd8f94dd8c5d8de78f71305327
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-writeback-hygiene.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-writeback-hygiene.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-writeback-hygiene.instructions.md: sha256:044251fd61e503e84c3276b7b03366a911ea7e71d119b59e307219ff78499c15
+  content_hash: sha256:2cb52cd0acdeeca888c79f2fec7aa7eb089d73820fe17b1fed684ddd81cdb725
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/mural/mural-writing-style.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/mural-writing-style.instructions.md
+  deployed_file_hashes:
+    .github/instructions/mural-writing-style.instructions.md: sha256:ddfa2d14b1c0386e7d624b91a8fb1d9cdf40a3347d5678c3eb04da73195300e4
+  content_hash: sha256:1ccf0c48a35736503a463b971851b7cc941b9bbfd4f70e696454e66e50c96f1d
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/experimental/pptx.instructions.md
+  is_virtual: true
+  content_hash: sha256:262604246f7b0020f84abdc1e598b66ec4e8b79861f6cee4f2885a05aca12e98
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/github/community-interaction.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/community-interaction.instructions.md
+  deployed_file_hashes:
+    .github/instructions/community-interaction.instructions.md: sha256:2c1d90f342a2ce1e3b002f349f1c62b808f512c878d2753a8dd688abb71099d5
+  content_hash: sha256:6c787a2b87c3159b7d9607004859731ac0b30f04f0048913b9224524b9c8ca49
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/github/github-backlog-discovery.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/github-backlog-discovery.instructions.md
+  deployed_file_hashes:
+    .github/instructions/github-backlog-discovery.instructions.md: sha256:89820ac488ae59d025334df29d10bd2fb113ce06eebd3f5a4b44e3e5720dea4b
+  content_hash: sha256:a32318f1bcfb71af079215bf142f11f5a2462401da3da0a9435252932e310b14
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/github/github-backlog-planning.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/github-backlog-planning.instructions.md
+  deployed_file_hashes:
+    .github/instructions/github-backlog-planning.instructions.md: sha256:142cdc2260bfd26612e0f83fb8a6915688efaff7771da8bf88e0ecd5a3cb92bc
+  content_hash: sha256:aa4067fdc0502116e6221823c4346256d7bb84be8fd27a93d1bc8458a146d420
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/github/github-backlog-triage.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/github-backlog-triage.instructions.md
+  deployed_file_hashes:
+    .github/instructions/github-backlog-triage.instructions.md: sha256:1423713b3e02208f2eee52b6a3a4982f6fbb3c57be033db2d47f388f6aea0272
+  content_hash: sha256:0c13717c630ad6ac4b6ab8f73afce0b85e2667e193168857d474f94d7ceed09b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/github/github-backlog-update.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/github-backlog-update.instructions.md
+  deployed_file_hashes:
+    .github/instructions/github-backlog-update.instructions.md: sha256:5c7be053f8507e9c07c34fd7eaf6bb48798a37820a5879656adbc0755746f4d9
+  content_hash: sha256:66d397f4c89bbd8d61e990bbdefd709a282281081efcc082f0c38b4cb127e899
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/hve-core/commit-message.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/commit-message.instructions.md
+  deployed_file_hashes:
+    .github/instructions/commit-message.instructions.md: sha256:4273c71550af96f2d238b6bc1218a995697e712ca2530ccf5c18350d501e4d5b
+  content_hash: sha256:60a49b2bf7ea9f1c7243fdf250a90507a865b882dc3b66257b4a6086def72180
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/hve-core/git-merge.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/git-merge.instructions.md
+  - .github/prompts/git-merge.prompt.md
+  deployed_file_hashes:
+    .github/instructions/git-merge.instructions.md: sha256:cb48671ba0fe9bd46ab87ed663e2300fc24e718d3d0eb546e24073f29f4459e7
+    .github/prompts/git-merge.prompt.md: sha256:d70064da54c6dd7a7a035d1a0086cfdca882bf3e9a718c7f4a5ea089cb9ab944
+  content_hash: sha256:fc9ef8ee719d894c51abbf4f089a0b27c14c3e4585a9afee170965d6d1746854
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/hve-core/markdown.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/markdown.instructions.md
+  deployed_file_hashes:
+    .github/instructions/markdown.instructions.md: sha256:5dde67eb4badcc0a7151d8d62a18b47ec1bcc6c8f368436b57f17731e194802c
+  content_hash: sha256:50e36c38c46248d64b97982ebc1056233a7f11c4ec7daea1379499dded606ebe
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/hve-core/prompt-builder.instructions.md
+  is_virtual: true
+  content_hash: sha256:1f67c19fb8cd8fdc5a802cbb59484a9fcc8a48e4e134580c0a129900cb85ef7b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/hve-core/pull-request.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/pull-request.instructions.md
+  - .github/prompts/pull-request.prompt.md
+  deployed_file_hashes:
+    .github/instructions/pull-request.instructions.md: sha256:d7e89f83d7e63a8229a42dfb0776a642baadfb80dde9993c3951990ecc0f376e
+    .github/prompts/pull-request.prompt.md: sha256:1f2ae5b65e553c193d299f8e040114d5b93a2472add2a32c3544ef239a03a787
+  content_hash: sha256:71a2a527f5359ab974ef60595ac33b5f32796e74921567fce79d08ff546babf6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/hve-core/writing-style.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/writing-style.instructions.md
+  deployed_file_hashes:
+    .github/instructions/writing-style.instructions.md: sha256:692993b0fb120ba254fd4823829904dd49922e3a628c35449607faec6f86f1e3
+  content_hash: sha256:1b7b1dbdfad439932c6fc2442c9e35279195f9b7af02bb2a46558b61f59ceb42
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/jira/jira-backlog-discovery.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/jira-backlog-discovery.instructions.md
+  deployed_file_hashes:
+    .github/instructions/jira-backlog-discovery.instructions.md: sha256:2fe3956a245a542e433a24c3de02f51d974f0a164e88d9d8b3d838480ba36f2e
+  content_hash: sha256:d8fc1254ccdccfb927be69aa08e47e1c603e692806d351abee81968cc07f7449
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/jira/jira-backlog-planning.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/jira-backlog-planning.instructions.md
+  deployed_file_hashes:
+    .github/instructions/jira-backlog-planning.instructions.md: sha256:609d16a7521169abbc61e0d70ccb8d36a0d6676232e8799c36be5965fae061ce
+  content_hash: sha256:988d068e5f627a38780a49ca5049c2b1feea54c957dc8c3188271e3605ef2773
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/jira/jira-backlog-triage.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/jira-backlog-triage.instructions.md
+  deployed_file_hashes:
+    .github/instructions/jira-backlog-triage.instructions.md: sha256:5f7f79fbec3c371904b691956f75b6da4d90b348f14ae50cac818b9d95c17958
+  content_hash: sha256:346a8bf50dd87b24c4c7d584ead588ea1621807f3eac0f3261e4da3f4672ea0c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/jira/jira-backlog-update.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/jira-backlog-update.instructions.md
+  deployed_file_hashes:
+    .github/instructions/jira-backlog-update.instructions.md: sha256:5c3c982343ed9aa163e5366456ae1573d2fceb088871503a485a75428e7bbaf3
+  content_hash: sha256:3ed7ceb6a20c1baff9eb73b0cf99c88a28e0cd9633cb2facb02981273c547fcb
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/jira/jira-wit-planning.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/jira-wit-planning.instructions.md
+  deployed_file_hashes:
+    .github/instructions/jira-wit-planning.instructions.md: sha256:f906eb18eed355e1159999bc609fee4a20eb0a3baf0cd704363e794001f36fb8
+  content_hash: sha256:d920355ab80a8e5093e461486a40e45a7151c318e1d64dd6506235721029937e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/project-planning/adr-byo-template.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/adr-byo-template.instructions.md
+  deployed_file_hashes:
+    .github/instructions/adr-byo-template.instructions.md: sha256:19c35e19993f5a22656a97f7979d1d7e19510f1af7b8021b280065f20c12b28b
+  content_hash: sha256:0d31bc83f3e6463a559e3565587dcd6690d3e7d14e2a58524bbdcaa514302f42
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/project-planning/adr-handoff.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/adr-handoff.instructions.md
+  deployed_file_hashes:
+    .github/instructions/adr-handoff.instructions.md: sha256:ef14c53a690a7b8ab096dc1ee68294c2ed784c77f00fcc656ce1791d12f6369d
+  content_hash: sha256:1707b8994bcb44ef3478e99aca657fe30ce0a4c0ad3008b572e0a4729f26e38f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/project-planning/adr-identity.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/adr-identity.instructions.md
+  deployed_file_hashes:
+    .github/instructions/adr-identity.instructions.md: sha256:bd42bc40de599c16d6d24b6fe4ee46b30f1f22bcb553fcd0442855b31014d1ea
+  content_hash: sha256:07fa3987ab836d9c52723eabe5fcbd7018ce33170cb187849e964aebafaf3d11
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/project-planning/adr-standards.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/adr-standards.instructions.md
+  deployed_file_hashes:
+    .github/instructions/adr-standards.instructions.md: sha256:1268775cba18788c4d815b5dbb9aca71612ffa7215d13ad4c7225ec644190273
+  content_hash: sha256:629f27e4c4a3c46cce78ba6596267756ca5354073adb2ad4cd9d8106a903eec1
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/pull-request.instructions.md
+  is_virtual: true
+  content_hash: sha256:71a2a527f5359ab974ef60595ac33b5f32796e74921567fce79d08ff546babf6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-backlog-handoff.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-backlog-handoff.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-backlog-handoff.instructions.md: sha256:074e47e5087230eaf1b93802d014e28861a0ceafc355dfc37333b30e0b4f1c7b
+  content_hash: sha256:e0574ffa043682bc0177596176a64fd968536f37298039b9a910604e2819aaee
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-capture-coaching.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-capture-coaching.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-capture-coaching.instructions.md: sha256:9015e1cdef5b142eb03fb159ca2e67f590cf253bfb779e5d17e0cd454b85b7ce
+  content_hash: sha256:becc40da3f3ccadf188bc2bab954c0f586bddf53bfbfe4e501174056ae662854
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-identity.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-identity.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-identity.instructions.md: sha256:a0c68c4d8462876b2001337ab81947e5d09c20331850f6f0a4c7f68b609a6a77
+  content_hash: sha256:6f697c641b5aa0175f080bb10d5c44d175ab94b0bd7cb7dd8ae1ccf177ca367b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-impact-assessment.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-impact-assessment.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-impact-assessment.instructions.md: sha256:94734e8dd79e7b8215ea073b3838c36a5687b0c5929b9f597ae7af48b234d0fb
+  content_hash: sha256:e8b9797a4e7b54bb4af783a85755dcd19ca23ef26eb15bec072695d3d6527fe3
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-risk-classification.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-risk-classification.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-risk-classification.instructions.md: sha256:088be37cccc8ae48f3dd49505667a2633eaa0e2a6a47ca3764ac1134b03d3c93
+  content_hash: sha256:83a48bd8679cf7cea154aa0dbba9307556f8dfc566effe79535da667ad38d180
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-security-model.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-security-model.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-security-model.instructions.md: sha256:23fabfaa90f7ebec38e856bbaa777d52e1fffad27091d7e1d4733d4b58703e9e
+  content_hash: sha256:d1e88b6c2c44d09ff0b1ce0505b23ef1f0fddbd52a50fcc3bcf2a6184e23abb3
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/rai-planning/rai-standards.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/rai-standards.instructions.md
+  deployed_file_hashes:
+    .github/instructions/rai-standards.instructions.md: sha256:c3b8be27c5b604e946f08c51c584f46cf809df8b914d7b69b4e3d08f07fcd776
+  content_hash: sha256:3224e73c9d0ecf7d4d6a7690760f3c85e4d634da2be49447a579084ce470b566
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/security/backlog-handoff.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/backlog-handoff.instructions.md
+  deployed_file_hashes:
+    .github/instructions/backlog-handoff.instructions.md: sha256:5a33cc633c03a5cd96f057b72fbaebbccde2282715da38654d90c7c2da09c2a1
+  content_hash: sha256:cb924e0b90538037579068163d7b87936b719b13afa2ddaed288434d0b13ca09
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/security/identity.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/identity.instructions.md
+  deployed_file_hashes:
+    .github/instructions/identity.instructions.md: sha256:38212fcb38643039457eee091ccc6292001099bb7817b3c3f1aec94973ac8806
+  content_hash: sha256:30c7e3ad12253b5927f767c0a8bf178c3337e2184ed447b6b71d7a02525df070
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/security/operational-buckets.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/operational-buckets.instructions.md
+  deployed_file_hashes:
+    .github/instructions/operational-buckets.instructions.md: sha256:ec9886990fe170bbab9abde93b50db9ef91d13b0f9bdc653c7bbab6c03c7ce65
+  content_hash: sha256:c4515ed38fcd43392fbf92d6255334dbc879706759176432d24f995faa02019d
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/security/security-model.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/security-model.instructions.md
+  deployed_file_hashes:
+    .github/instructions/security-model.instructions.md: sha256:9e96f0e3f19c428d4dbc86cb1e046ce0a49c3d6fc6ef8db4e2d8e1ca5097e684
+  content_hash: sha256:24aac8fe8ee327b120abb85010d040b7ae3200aa41a5ba0404c8d24904c0ed94
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/security/sssc-planner.instructions.md
+  is_virtual: true
+  content_hash: sha256:b2b8186bad056850545161235bd7b4651ebeabab5df8ba409de0685c04c4faa7
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/security/standards-mapping.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/standards-mapping.instructions.md
+  deployed_file_hashes:
+    .github/instructions/standards-mapping.instructions.md: sha256:9da886ddc47cf4082d0cdfb084f4fe66de8dd23bc2dbee0c691bfb929bba28e6
+  content_hash: sha256:b4367671e6d2b18160ca89c7b3c92e617d5cb8fbb15315a9be9eddb6312de9c9
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/shared/coaching-patterns.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/coaching-patterns.instructions.md
+  deployed_file_hashes:
+    .github/instructions/coaching-patterns.instructions.md: sha256:49b5a8576862a35dd0e9dcb33450634e399aa4a6d5ada5c1685e0dca7ed81a81
+  content_hash: sha256:3e1da7fd77d388d161a98ff01ff80071abf257fd23367d572ab4514e3f0fb714
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/shared/disclaimer-language.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/disclaimer-language.instructions.md
+  deployed_file_hashes:
+    .github/instructions/disclaimer-language.instructions.md: sha256:e72a95245f6899eef4d05713f439d25258665128a4d759ca4d996bff1a71ea86
+  content_hash: sha256:8010fe503d19c25baca47307a8e1c7ecab6bbdc1ad7021221821fd31de888c3b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/shared/hve-core-location.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/hve-core-location.instructions.md
+  deployed_file_hashes:
+    .github/instructions/hve-core-location.instructions.md: sha256:38412b2133ecc1f88f6473a993e55c007caf4a84155d2ea23b629840e09075c0
+  content_hash: sha256:cd03d45d2261a7f6e61c6c857ee73fae6ad1ff63d9851a17b53ec574842b493f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/shared/planner-identity-base.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/planner-identity-base.instructions.md
+  deployed_file_hashes:
+    .github/instructions/planner-identity-base.instructions.md: sha256:f7f923926e7aa9b8832fa1ff2ddfd5d1b5c6b24dbc3d14318bf141efdf337313
+  content_hash: sha256:87791115712a7141d36db48600bebc71cd1fc6d4ff750f869e0365fc1c71b400
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/shared/story-quality.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/story-quality.instructions.md
+  deployed_file_hashes:
+    .github/instructions/story-quality.instructions.md: sha256:b16c38935734fb422a64369063fadd534bc11b8ac083e9d502e87582169d38d8
+  content_hash: sha256:71891a7a015faa6b58f9f325471dbbaaafa962667bf46fb8415d4a904564adde
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/shared/telemetry-overlay.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/telemetry-overlay.instructions.md
+  deployed_file_hashes:
+    .github/instructions/telemetry-overlay.instructions.md: sha256:19d972154f09742941085d09554297715579a7007166f53af08a4cde5327536e
+  content_hash: sha256:e148a56635e39ed7055af3ec40d1f99e7c0f1cca2487f0793fdf5c46dde8c1f3
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/instructions/workflows.instructions.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/workflows.instructions.md
+  deployed_file_hashes:
+    .github/instructions/workflows.instructions.md: sha256:0947bf7b9f896e99e221f3d5c9b3f22752b483e05700ab6601ada26ebbadb7df
+  content_hash: sha256:88d51d2a44943ff4ffa1a8d0ba9b29a0de83fb8429f2c1d08063b43ea731e1f6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-add-work-item.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/ado-add-work-item.prompt.md
+  deployed_file_hashes:
+    .github/prompts/ado-add-work-item.prompt.md: sha256:9920ded209f5919f71c30b2be15e71b052971bd3fd98eb8133e46fdf5dde108c
+  content_hash: sha256:2eafac5b0f70874cfafdad5c4224ae288a46eb7340e6ac13f7d9a2e2ba1de77d
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-create-pull-request.prompt.md
+  is_virtual: true
+  content_hash: sha256:9b63f2b196e9a3f4d85af70614466758531559467bbeeacbf30a6a20f8796109
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-discover-work-items.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/ado-discover-work-items.prompt.md
+  deployed_file_hashes:
+    .github/prompts/ado-discover-work-items.prompt.md: sha256:6be5765ddbf3b32ebcbe641985bc3c2fd447629c62d0caf0f304729975431ba3
+  content_hash: sha256:16db5c2042a2b73feb1ff944d7c1ac7d9aabaaac10af855f86ac21e6b7ca5220
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-get-build-info.prompt.md
+  is_virtual: true
+  content_hash: sha256:329d4e3544ff0d364329c9e3985341a2cb83c017654bd3491e896d49ac739f63
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-get-my-work-items.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/ado-get-my-work-items.prompt.md
+  deployed_file_hashes:
+    .github/prompts/ado-get-my-work-items.prompt.md: sha256:786e9eeb4c818678afc2346b5fa825798149a41732a64bd6d5767b271df6fc5b
+  content_hash: sha256:9d732f40f784d876bbcfc2e3b15ea73ea99aec8596917e4f4f8f10b0b1bfd0d1
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-process-my-work-items-for-task-planning.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/ado-process-my-work-items-for-task-planning.prompt.md
+  deployed_file_hashes:
+    .github/prompts/ado-process-my-work-items-for-task-planning.prompt.md: sha256:c3c00e046977589dc2a780f3d6e3dd613c70fcdb321ccf2f68fc54d6c5d51dbb
+  content_hash: sha256:a406ce2985bc3243072330eb1cab8725f2168f259971f0175d6e16e3619bc066
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-sprint-plan.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/ado-sprint-plan.prompt.md
+  deployed_file_hashes:
+    .github/prompts/ado-sprint-plan.prompt.md: sha256:7371bba09b6799bded05f77a15b9ea6b7e83606a9468ba6fee7297b467d1a4cf
+  content_hash: sha256:7da3234fa38f174d25f6605d07472adc204bcb5579b3c4eebce75ada4d728ddf
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-triage-work-items.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/ado-triage-work-items.prompt.md
+  deployed_file_hashes:
+    .github/prompts/ado-triage-work-items.prompt.md: sha256:adf1427e208682d373d0da55670f9687b41cdcbc4c8d190ac1ba0938a124dab4
+  content_hash: sha256:2b2e01ff570c8f978b7b46bc7d69f38403ac6944a7c075329ba4c2478f6dc726
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/ado/ado-update-wit-items.prompt.md
+  is_virtual: true
+  content_hash: sha256:642536fae2d84676a570700f58ed2420c83122d0224f1f2002dc58b1a19060ad
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/coding-standards/code-review-full.prompt.md
+  is_virtual: true
+  content_hash: sha256:74d39674709567eb5d706b5a745227c290b589638f70b88ca2a84d3c85ce3fc1
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/coding-standards/code-review-functional.prompt.md
+  is_virtual: true
+  content_hash: sha256:7bc813a97a66fcd7ff3176f6f82ff9494cec2b9da2c94d9a338b6761ba5cb86f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/data-science/synth-data-generate.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/synth-data-generate.prompt.md
+  deployed_file_hashes:
+    .github/prompts/synth-data-generate.prompt.md: sha256:7aea795b968047af47198a3bfb4ac33bb4655abbb5941c3ca5ec75ff96047e07
+  content_hash: sha256:97e0f1a2df4aea291f55ffddcecdc3dfaaea9329731ffdf05aeab93ce5cc3620
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-canonical-deck.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-canonical-deck.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-canonical-deck.prompt.md: sha256:2bd2922e9dcfbce7664347ec6015c938a442bc50fe273378b30ca745494e41c2
+  content_hash: sha256:65cd514f174b56298d6ee93139196b0a340bf26288ce03ff9359b0bab1788194
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-figma-export.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-figma-export.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-figma-export.prompt.md: sha256:72a4979ec8da5706ac4406f79499f5caca2fb42c3ec83985b86721d6cebbfb54
+  content_hash: sha256:beeeee696da0a646102ffdc3d1b1fbde0d20ba0ac225faaf917077a546c5e4c0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-handoff-implementation-space.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-handoff-implementation-space.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-handoff-implementation-space.prompt.md: sha256:71677574adeabcf092b381415069ffcf3a78d938cbe3fac53e974a4392e17231
+  content_hash: sha256:6c54076a8f17fe585a3b16b5c79b9836cb4bdf04e1068745948d7ba1584479ba
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-handoff-problem-space.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-handoff-problem-space.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-handoff-problem-space.prompt.md: sha256:f42b8c5d915b2c39aca281c5c966180c1ed4b36c1a17c581effe815cbcfdf188
+  content_hash: sha256:43e714a9265a3e53730cda5dac0e9c46c55f079e9268a810954a5b152baefe30
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-handoff-solution-space.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-handoff-solution-space.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-handoff-solution-space.prompt.md: sha256:a537be08d7099dd768525e306c55df02e19eb2f2f7f566534b4478209e9724c2
+  content_hash: sha256:631dd971ea362338870aaaf02663c639520189a1cc549b8e0142a9b76bbfd1ff
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-04-convergence.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-04-convergence.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-04-convergence.prompt.md: sha256:fe777ba161ce3cf5feb749c7cbd5c6c9d23acb0f389a95fbf34b5887dc0869df
+  content_hash: sha256:bf70571621ef6b7fca1ce6f2440f339e2cff507c13656a9990ad61c874a44afe
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-04-ideation.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-04-ideation.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-04-ideation.prompt.md: sha256:f34c9337b06693480f59aa9269dd8013cc2fc6304b88f419bb732fcc274cc916
+  content_hash: sha256:8e65389d75679a2cd862823a74e7ce0d65fa4e9ce8b07f20db9c9dcc31d1fcf2
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-05-concepts.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-05-concepts.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-05-concepts.prompt.md: sha256:ec43b90c4a10044ec848a03ed0070942287877e15f336396ed59ff7a9db36247
+  content_hash: sha256:eeff06c904b92914f216d6949bb662a6f08da95ec3873f5becade3a7c1dbd6e5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-05-evaluation.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-05-evaluation.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-05-evaluation.prompt.md: sha256:130067cbdd5ed4a6b18cc4c062398732ca70648586129de83f4daca3bbbdb69c
+  content_hash: sha256:0a99f477d386f5cf3c09bd2a8ef4c560072e2b1336e5fc9fa359d00f83cf9d1f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-06-building.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-06-building.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-06-building.prompt.md: sha256:2114c8c1777ef3574ac1c3633edd9e56e07e06d103979a6d921c67f1faa88da5
+  content_hash: sha256:ec241c55031c8c615bb40d6033910bbc9f897af8dd9c2fc52bcae1b445a0a197
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-06-planning.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-06-planning.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-06-planning.prompt.md: sha256:4afe0c8bc87b4bf3717835315e96a13a3e51894930bbb7817f68378fec93c4fe
+  content_hash: sha256:0b49899ed22481742a94a9f411cc13e244c7a3b94d8e82d6002def85a9badb26
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-06-testing.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-06-testing.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-06-testing.prompt.md: sha256:627f6325beca09aaa63675dc56e568d11db8c05f07fd43143b98910b84bf10ee
+  content_hash: sha256:581725314a7d07389f298ce42108d2fb90129bc4cecf48aabeb51546d382cf0d
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-method-next.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-method-next.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-method-next.prompt.md: sha256:f960b9b545b1e55f3ee2fdda9af6dba6e47c9f949ff0dcb773508ae1ebaded3e
+  content_hash: sha256:085d8ae2e340d6345a8062a7b50baf005f9390e82ce1a17701ffd11bdf657036
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-resume-coaching.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-resume-coaching.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-resume-coaching.prompt.md: sha256:ab14339b887a0a59b759861c2002e08dc45b7e14b76c03b9af320c18e9426036
+  content_hash: sha256:db409f2a8df53a174075cba923c42cfe5e9eede3510fde63d4fe6e9dd0418e63
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/design-thinking/dt-start-project.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/dt-start-project.prompt.md
+  deployed_file_hashes:
+    .github/prompts/dt-start-project.prompt.md: sha256:1a0fdd19a21d3192e574b30a4509ce520a1d8104525e2e4b3da95fd071cd506b
+  content_hash: sha256:f0fc3c35d33c48e5c3d47eafe42d7c1b31520addeee8da372644bd9a1edd5ba2
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/experimental/cspell-config.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/cspell-config.prompt.md
+  deployed_file_hashes:
+    .github/prompts/cspell-config.prompt.md: sha256:ebf47d67b80ce0944f64adba1014681b054d682139ff00211573a4489285ad2f
+  content_hash: sha256:33474e8ea667398915a2129c29fa19b3bd35f855be9be482c4cde6dfdfbaa423
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/experimental/graph-research.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/graph-research.prompt.md
+  deployed_file_hashes:
+    .github/prompts/graph-research.prompt.md: sha256:9f369bdda84bf4ae88d105d8d9cb1e6b97ca098b5aab3c1a431502f596e14237
+  content_hash: sha256:7c4d5cb361870d92f8549d79738de97aff3f436fdfce5f8e788d16936cf89903
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/github/github-add-issue.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/github-add-issue.prompt.md
+  deployed_file_hashes:
+    .github/prompts/github-add-issue.prompt.md: sha256:24f63d146beca7f90187e928eab202db0e4fe588abd27085e8a2753382bc8a7d
+  content_hash: sha256:5e19074ca3bbc185bfda7cf21a96fda93cd0f620c3d3ad75fccee9dc9c651bbf
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/github/github-discover-issues.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/github-discover-issues.prompt.md
+  deployed_file_hashes:
+    .github/prompts/github-discover-issues.prompt.md: sha256:732640f22b71e7b453a3c28724cd74ccbe38cbc04afc574d6849dfbfdd86f6ba
+  content_hash: sha256:e9be260207723f8e8fa96b73841d0a65408290945da8a9cc4ce3d4397528e984
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/github/github-execute-backlog.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/github-execute-backlog.prompt.md
+  deployed_file_hashes:
+    .github/prompts/github-execute-backlog.prompt.md: sha256:d6efd99ee7d18fc8de25eb27190f8e5fe93f1ba5a3f4df384b0c86aad9df175d
+  content_hash: sha256:5f8b97fbcfe0a4858fb81c6ee1b3694d30442f6fb7784907f53a3886c18eb7d9
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/github/github-sprint-plan.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/github-sprint-plan.prompt.md
+  deployed_file_hashes:
+    .github/prompts/github-sprint-plan.prompt.md: sha256:71169fdd21fa2df1fdd017d6cf0849cc9905d337fb655fba686966c02b9f73e6
+  content_hash: sha256:57b2f91447fe0ddc08b6e2fd56cd778d69ba8f27df04baae6e4140c1ae06edb5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/github/github-suggest.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/github-suggest.prompt.md
+  deployed_file_hashes:
+    .github/prompts/github-suggest.prompt.md: sha256:2100c1d383f0e95c1355a07b0cb709b3738cd137745a2c7e0ea7da56371bafaf
+  content_hash: sha256:de88a1c469f7700137cd9676b4d812918d3e62e4842a3ff155d5dca9ed25c1df
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/github/github-triage-issues.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/github-triage-issues.prompt.md
+  deployed_file_hashes:
+    .github/prompts/github-triage-issues.prompt.md: sha256:2fa3a71eae3e59a6e60b6f2902526e927651eb33b2612c11c8e6564ea919e303
+  content_hash: sha256:b0220eded6c630ec055d18dea669a36b5823cea900d277ceca00f6bbffeebd5a
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/checkpoint.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/checkpoint.prompt.md
+  deployed_file_hashes:
+    .github/prompts/checkpoint.prompt.md: sha256:4a02515a543b61a6b36666a1067c3290944bae6d618f7f4a6c7e372218c0971a
+  content_hash: sha256:485746e8c5e66942c21985150666ae25878a3d9f89b200257399de8cf25de274
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/doc-ops-update.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/doc-ops-update.prompt.md
+  deployed_file_hashes:
+    .github/prompts/doc-ops-update.prompt.md: sha256:0d23f3cc7ddeaa4f6a2c11bece39fcafe796e6c4a0aab667e591c0d0e4d8ade5
+  content_hash: sha256:a10fd301c5d26e8814d634f08911bbab3f7606e5e37f11923b2e1fd4094ff251
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/git-commit-message.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/git-commit-message.prompt.md
+  deployed_file_hashes:
+    .github/prompts/git-commit-message.prompt.md: sha256:81f766672e7d6561c7a1a5837e0ad45697db64f9d2fd9ee3fffba2026e7d1afa
+  content_hash: sha256:760c629fc0eeefc6414c4a117ca16d188f9921469c643bc911f4d1bb935b7793
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/git-commit.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/git-commit.prompt.md
+  deployed_file_hashes:
+    .github/prompts/git-commit.prompt.md: sha256:6154c90fa29bcbadb64bc01016ede733a6df2ad30ca5ceaceb27c2d3c0a70aec
+  content_hash: sha256:c9ceec997edb3a363870d51b585e6c81c9bee207573e748f854e49e58c7f3ebb
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/git-merge.prompt.md
+  is_virtual: true
+  content_hash: sha256:fc9ef8ee719d894c51abbf4f089a0b27c14c3e4585a9afee170965d6d1746854
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/git-setup.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/git-setup.prompt.md
+  deployed_file_hashes:
+    .github/prompts/git-setup.prompt.md: sha256:82f6ca793948cd43fad22f2f44a2d5a03708c2b528abc95bee2431dea6018e29
+  content_hash: sha256:738f54d8c0bfe3acfdab5a8ceae1f6661a8a82de0cf2ac98f19013f65c02cdc5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/prompt-analyze.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/prompt-analyze.prompt.md
+  deployed_file_hashes:
+    .github/prompts/prompt-analyze.prompt.md: sha256:f14e7ed88aae162b7b56018e8387b646d86341efb91a0465d55046a8993ddf62
+  content_hash: sha256:d6a3e8e8727d6945b4aed6d7848490e9403ecafad5aa7935fb21f0e3450aec49
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/prompt-build.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/prompt-build.prompt.md
+  deployed_file_hashes:
+    .github/prompts/prompt-build.prompt.md: sha256:18576cc076563e1864591987a227b2a5729e630200553642e573d4df7a25a99c
+  content_hash: sha256:5d66ccd1aae91ea74c4bd3a6367f46f81d159a71277ba43bc23342c3be51d072
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/prompt-refactor.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/prompt-refactor.prompt.md
+  deployed_file_hashes:
+    .github/prompts/prompt-refactor.prompt.md: sha256:db971614ea52d9d497ed97ba9e6a20baf93e393e0d35842af9d104785cc49629
+  content_hash: sha256:9494a4fb0df0ef1bc2854ef2d8697609fcefd92dbe1155b7533eaf66bbda5a75
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/pull-request.prompt.md
+  is_virtual: true
+  content_hash: sha256:71a2a527f5359ab974ef60595ac33b5f32796e74921567fce79d08ff546babf6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/rpi.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/rpi.prompt.md
+  deployed_file_hashes:
+    .github/prompts/rpi.prompt.md: sha256:886f8724db050e5e104f0f500037f993ee41ff966eca73e83303db24ed6f2567
+  content_hash: sha256:8e58c01d25e0a2238c80a0a025670aa37d4af71c0f924b5c619223e3ed767a63
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/task-challenge.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/task-challenge.prompt.md
+  deployed_file_hashes:
+    .github/prompts/task-challenge.prompt.md: sha256:bd4cac1416c9c5652e5bc2fc522110d03ee1289b1d6da80cb030b108925a4e10
+  content_hash: sha256:d26f84ce5e1183baae96a1687420d4140737e1c4b707e072f1305572c580ed78
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/task-implement.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/task-implement.prompt.md
+  deployed_file_hashes:
+    .github/prompts/task-implement.prompt.md: sha256:bdfcf091ab70f7c372df3d9ad91ed242a05e32a92a8a2d37b80180451a6dc14c
+  content_hash: sha256:1c1d260d697aeb6448bd50704875d1a953252672cce300c9e4d4bd4b5e155ca9
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/task-plan.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/task-plan.prompt.md
+  deployed_file_hashes:
+    .github/prompts/task-plan.prompt.md: sha256:d9eed6cff32647dd878ed2dcdd48d385ee9df65d1c2f630905aceed5186edab5
+  content_hash: sha256:267fac7af11550fb26602aad3488a50a80b881d66812a0fe10476c7d4a45e274
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/task-research.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/task-research.prompt.md
+  deployed_file_hashes:
+    .github/prompts/task-research.prompt.md: sha256:c30b1687c0286b76a6e8382e754f11481cf0ca395dcebae28607a5f56b09ca56
+  content_hash: sha256:bfa7a72eb123f3d3a81b41a5f2f14efc4134bb88f437a63d8c301ab1949899e1
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/hve-core/task-review.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/task-review.prompt.md
+  deployed_file_hashes:
+    .github/prompts/task-review.prompt.md: sha256:96518ff1c495c217848c527d6f083f211eba6c304cc47728cecfd58ef1510239
+  content_hash: sha256:66047130be8b11551b29a30f18c5a495a23f2ba7fcc216ccee624d9cba261a3f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/jira/jira-discover-issues.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/jira-discover-issues.prompt.md
+  deployed_file_hashes:
+    .github/prompts/jira-discover-issues.prompt.md: sha256:6bb4898d8d1b972b4b12d603379a79a17d71c87f1f9beed39e53d8dd00b799fb
+  content_hash: sha256:b60c78124de3eb33469cfce896a937a916012813e5cc5eb29cab866358b44424
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/jira/jira-execute-backlog.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/jira-execute-backlog.prompt.md
+  deployed_file_hashes:
+    .github/prompts/jira-execute-backlog.prompt.md: sha256:0a00a6e44e917c1350080f5c5da8c0f68fcf909b2c3f98e1e2f790adf9960017
+  content_hash: sha256:1ae979aa9ec685e6fe0b83584258dad754329924da318042f9c107d551672218
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/jira/jira-prd-to-wit.prompt.md
+  is_virtual: true
+  content_hash: sha256:a4c310b5422e952d62581eeb62c046701370fe791516b645e9b671b371a45208
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/jira/jira-setup.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/jira-setup.prompt.md
+  deployed_file_hashes:
+    .github/prompts/jira-setup.prompt.md: sha256:f15d4216cb1732505af0d546c84400db040f844045cf3515773b9997f03dbe88
+  content_hash: sha256:f286ca69d5e8d841b6f0d28bb76cde008d4b11f6c0e6869f2bcecbfd6d8c123e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/jira/jira-triage-issues.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/jira-triage-issues.prompt.md
+  deployed_file_hashes:
+    .github/prompts/jira-triage-issues.prompt.md: sha256:344f13488451c71ee4ced5176061deb6890599ba091feb2aed87ac26867826ed
+  content_hash: sha256:e7b4cfbd502c4d7eb00456918264faaea85ef9a0f4d149707f1f3df4a7accac0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/pptx.prompt.md
+  is_virtual: true
+  content_hash: sha256:262604246f7b0020f84abdc1e598b66ec4e8b79861f6cee4f2885a05aca12e98
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/rai-planning/rai-capture.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/rai-capture.prompt.md
+  deployed_file_hashes:
+    .github/prompts/rai-capture.prompt.md: sha256:ff036b5d42edd9d03d5211c6865b66a6517d513b66ccf809d9822fcd1fe57b70
+  content_hash: sha256:35840f9831f6167f6e2a38b80281a07352e18e887befc6939edddeac6c982f82
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/rai-planning/rai-plan-from-prd.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/rai-plan-from-prd.prompt.md
+  deployed_file_hashes:
+    .github/prompts/rai-plan-from-prd.prompt.md: sha256:8817575889ab4924b747c163f151972cee3b2fe2542795f6e1b69904b4e2a9bc
+  content_hash: sha256:b16ad08f3becd52b45a316a2a237ab3c2f369f0874c971a9ec16f0a2440a7079
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/rai-planning/rai-plan-from-security-plan.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/rai-plan-from-security-plan.prompt.md
+  deployed_file_hashes:
+    .github/prompts/rai-plan-from-security-plan.prompt.md: sha256:547b3efd260fd7c3bcb35f146d3d9a43969772b7bdc164ca95c95b382ac0422f
+  content_hash: sha256:1d3441834ebfb90c73f8827b8bf2b33c8e53116b05d8683c46c76a160c971b06
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/incident-response.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/incident-response.prompt.md
+  deployed_file_hashes:
+    .github/prompts/incident-response.prompt.md: sha256:fc9fe821f7b475f652a770a3b421f4a0d8ebc6e0e9be8f721933e21d52256f48
+  content_hash: sha256:9cb64858835250f5705e573f3bf1d0875b88b774d194044fdaaef2db3288b744
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/risk-register.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/risk-register.prompt.md
+  deployed_file_hashes:
+    .github/prompts/risk-register.prompt.md: sha256:32df3b7da2df65eab52bcdb7a7d9eb05f16ef64281256d9130644ac7fe4cef89
+  content_hash: sha256:9674843129054811902560394ccb529f9c61cf2361b22b7b71aa4300e4d8d523
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/security-capture.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/security-capture.prompt.md
+  deployed_file_hashes:
+    .github/prompts/security-capture.prompt.md: sha256:a83aa22b7fd1b70876330bfb59c82fb7e17b129d9a6ac14e27ab3f9ca23a880a
+  content_hash: sha256:c95fc9855d9907414a461c7fa3fa8c85f719cf832b585e8ff3b4e540d208d7ce
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/security-plan-from-prd.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/security-plan-from-prd.prompt.md
+  deployed_file_hashes:
+    .github/prompts/security-plan-from-prd.prompt.md: sha256:02e6532987f540795de1f8a4b590904917116bffd5581b4295d7f7cc86c4ebb9
+  content_hash: sha256:3c4ab989abba3ae3877b441c7448df37402d0ab49b589aa3fd1d8634a2a3081e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/security-review-llm.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/security-review-llm.prompt.md
+  deployed_file_hashes:
+    .github/prompts/security-review-llm.prompt.md: sha256:0a33c0ca0b4880b51598199a9b742ac8ad0b330bd5659bf2d18150c9209265bd
+  content_hash: sha256:35078d6803a2042d9aaaffda5c4f6b537ef31b0e634ff08972971ae03a5ddfbe
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/security-review-sbd.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/security-review-sbd.prompt.md
+  deployed_file_hashes:
+    .github/prompts/security-review-sbd.prompt.md: sha256:84fcbd1f5f8ffd761f1078e2bfd6fd1a131b119fcb606a824df3c5a5780f4070
+  content_hash: sha256:0f14b7a39ca67adbbcd820e49f76ae0481c002e3fc6e48b364cebc435527a6a8
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/security-review-web.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/security-review-web.prompt.md
+  deployed_file_hashes:
+    .github/prompts/security-review-web.prompt.md: sha256:5284138294c3dc562d8ebd52fd0e8c01f51fab162c8f3dbb9a4fd3001205cee4
+  content_hash: sha256:fdc15078a735bffce9fbeca3cf4a5ae545794c7a86292284b75c8dd27f35df20
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/security-review.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/security-review.prompt.md
+  deployed_file_hashes:
+    .github/prompts/security-review.prompt.md: sha256:2de17b1f6de921512e102bac66cb80a1e99a2310e307a87585bbeff536e070d3
+  content_hash: sha256:04d59c3acee7d1fd6b779019fb768b59f84ef7ac9372a4f121c40cd9318ea880
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/sssc-capture.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/sssc-capture.prompt.md
+  deployed_file_hashes:
+    .github/prompts/sssc-capture.prompt.md: sha256:162e2f21c48358660c260f7f349937fc788b15c65909211b1b15076741318570
+  content_hash: sha256:e948be04925d79e10cfdb1d38ecc66bf4e47bab222a80f14a9b74699265b78d6
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/sssc-from-brd.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/sssc-from-brd.prompt.md
+  deployed_file_hashes:
+    .github/prompts/sssc-from-brd.prompt.md: sha256:ecdd35674a9598ecd4d6bbb6f983fd5465357686d1f36b4b76b6c50ab83383eb
+  content_hash: sha256:93ae525202d5589b98e20e3389203c9d77dd6d719375c72fec0149dd42f1da94
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/sssc-from-prd.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/sssc-from-prd.prompt.md
+  deployed_file_hashes:
+    .github/prompts/sssc-from-prd.prompt.md: sha256:c9e1c6c2514d7f714631e8284e45bc7e3dc652db36d75e17f17079952dc95a46
+  content_hash: sha256:50b4d0908062cbf1864c70064e47dff193cd9b586e439a5e1a531257d2cbd5ac
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/prompts/security/sssc-from-security-plan.prompt.md
+  is_virtual: true
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/sssc-from-security-plan.prompt.md
+  deployed_file_hashes:
+    .github/prompts/sssc-from-security-plan.prompt.md: sha256:53899bfb4254eabcceab549e902dde9ddcb6c7f8fce233ba10040ed1237a213c
+  content_hash: sha256:05694d579f43ce8eccfaea189a3a324d550b782d00d8479c5a7663158a4a28a5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/accessibility/aria-apg
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/aria-apg
+  content_hash: sha256:b193e2b7d166ef378dc71cba33494fea430c1e3eec46c65f9aa64b25d1e75a3e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/accessibility/coga
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/coga
+  content_hash: sha256:25037b478d3779b734de78eb0586ae7d7db142ec89f11779bf0fc902e8634308
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/accessibility/en-301-549
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/en-301-549
+  content_hash: sha256:f3c6ee2572c7545bc70831966e6c7c61d032f83747ba82cc319775f3c8ca0876
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/accessibility/section-508
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/section-508
+  content_hash: sha256:8aa98772002f97bf5125905effe71a65357bbb1226591ddc01c57296a3f5aa86
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/accessibility/wcag-22
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/wcag-22
+  content_hash: sha256:58e62d917c025a16b73b388756d783f40af0e3d802585c90dd90190bbe6ce4ed
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/coding-standards/python-foundational
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/python-foundational
+  content_hash: sha256:3fd97f1287baf6d14ea7c776577cf9122407e9b2f1c67d77b9beddaf92f59fdd
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/design-thinking/dt-coaching-foundation
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/dt-coaching-foundation
+  content_hash: sha256:6fa0da7a1d74f60c7256245a4946b35556a6c88f50079b6977c47e336c229edb
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/design-thinking/dt-curriculum
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/dt-curriculum
+  content_hash: sha256:ffd39bf1f55ac46f6790d6da28d531d6bb2a7210303379b9013dd8d2de137372
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/design-thinking/dt-methods
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/dt-methods
+  content_hash: sha256:de08b0f37353656d0e816ca6cbfbd153589238ca97509ad642c21e58059a27a0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/design-thinking/dt-rpi-integration
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/dt-rpi-integration
+  content_hash: sha256:f56968232806f0d767d53f53c242568d3992c1e3722f4b2513f3f0066c2732af
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/experimental/customer-card-render
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/customer-card-render
+  content_hash: sha256:203d7b083c69a3e3e2c996c6ec3fd00de18bbb6efc5652b80ac7055fcbf7421b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/experimental/mural
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/mural
+  content_hash: sha256:a66cc17e4b30a64939d91b243930f2006b1da6cc010766e25ab6821d545dc5da
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/experimental/powerpoint
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/powerpoint
+  content_hash: sha256:0d0ac5f82626ce48fe54a2832e532ec0c6aa57dbc265faf8388fae620ad7be09
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/experimental/tts-voiceover
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/tts-voiceover
+  content_hash: sha256:16c84e756ab167196286beaf1d4cc608cfbe2a593121796374fad2d29bb6cc12
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/experimental/video-to-gif
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/video-to-gif
+  content_hash: sha256:3b8aecb6b9e499351722de863e1f1be6f6c1b6c12ded89f8b511b10efdf815c8
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/experimental/vscode-playwright
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/vscode-playwright
+  content_hash: sha256:73c333db124118511089a122c0bcdf5bb38dcfad30c5c767f0796f7dab7f52d5
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/github/gh-code-scanning
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/gh-code-scanning
+  content_hash: sha256:156ed29a80441a32ac8ce78b95d87eaa04b3ed2312dd959b083d05eabf48b051
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/gitlab/gitlab
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/gitlab
+  content_hash: sha256:20ce7e38fe17f951830f61513493c9b861e35f20eba5375954e12e7406d9852b
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/hve-core/vally-tests
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/vally-tests
+  content_hash: sha256:7d8083eedd4c50129027092968d75c0e3f39f28b9ef324bc7ec5a1a25851bd5e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/installer/hve-core-installer
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/hve-core-installer
+  content_hash: sha256:62f3fc2737e34fd4ad8d70c201b1df06d244c849e8714420885a1d1fbd2a05d8
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/jira/jira
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/jira
+  content_hash: sha256:4d9d47d91f704ffaf0cd81aafa9b3c9eb308eda0bc67b1271d9159107b2a383e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/project-planning/accessibility-planner-playbook
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/accessibility-planner-playbook
+  content_hash: sha256:4d2c15f31b5d44cdf7bb46f466860f8e6a59d8eee4eee6d94cc2a581cf0e9d29
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/project-planning/adr-author
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/adr-author
+  content_hash: sha256:99837b60504191da4680b7b12a60e5824faae38b645d8aa3a33695facbc68931
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/project-planning/requirements-author
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/requirements-author
+  content_hash: sha256:9095b943964e0a3f69f72a75563ba79ef1e7e32d7e3c57a512192d1ff17b1f45
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-agentic
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-agentic
+  content_hash: sha256:a30ba210df98abface3b647797c98008b2ad4d2c43a826e61053f9cf5f7e2a72
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-cicd
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-cicd
+  content_hash: sha256:2ef3abdfa5369260833571939ad1ab3003d726dafe69a7d1bfa10643566756fa
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-docker
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-docker
+  content_hash: sha256:f76f01eaa6f8610b5aeaa7c2d8215dfb074a184ce37bf1a25bc177253cd0151f
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-infrastructure
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-infrastructure
+  content_hash: sha256:5cb9d7360ee9de82784f2d0c77c3f8be817006a82a66b4a05c7ab59c7202131e
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-llm
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-llm
+  content_hash: sha256:80e64e8ac033be3b5216acd0e183babe1753367b39796e18175f6f4b1d0ef137
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-mcp
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-mcp
+  content_hash: sha256:83c9f91e6be59298019c96966cd9bb1412710cd65ae25d068bc18c69373e69a8
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/owasp-top-10
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/owasp-top-10
+  content_hash: sha256:3ddc82e0da7b7e358308dd92bf3a6750abcfb2e6cc3139df3a39a76560d65eb8
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/secure-by-design
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/secure-by-design
+  content_hash: sha256:3f2f89423fb9b3d95b899dd0b91dbbba751a1f62b8ee8ec389c7e793a1d00a36
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/security-reviewer-formats
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/security-reviewer-formats
+  content_hash: sha256:99d52969ee5635c607e7680a6bb9714bb2f3c35f551a3cc1b5498ac9b970fce0
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/security/supply-chain-security
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/supply-chain-security
+  content_hash: sha256:b57afd5254593bc950b6599fa71d282df3c7b20d5f48c95aaba58b142196df26
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/shared/backlog-templates
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/backlog-templates
+  content_hash: sha256:49c41f1e909aa1eac7dab0816f6d6a289623dfd8567a60dfe86637e37ee4869c
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/shared/pr-reference
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/pr-reference
+  content_hash: sha256:b457e383dc1334337552203d3704104cafc3eeb09a9fc5c51fd937586bf54917
+- repo_url: microsoft/hve-core
+  host: github.com
+  resolved_commit: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  resolved_ref: 6cc41e1ed11a229b334815f5b754af983bd8d96d
+  virtual_path: .github/skills/shared/telemetry-foundations
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/telemetry-foundations
+  content_hash: sha256:f4464c549902845cec6cc9aa778d89c69f498c91df7ba5a11b24eeaeadfc565e
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-asbuilt-author.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-asbuilt-author.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-asbuilt-author.agent.md: sha256:9d83f1e35874c13b6c942b4bb0f5dc0bc081c329ad143d7eff44cc4eec304cb7
+  content_hash: sha256:18ee59e4587df7d1c9828ac6318559c8540137689b4f7a5e9c9158eef9e93fc4
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-azure-architect.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-azure-architect.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-azure-architect.agent.md: sha256:44799d8941749ba53e38e27c39e416433623729b18810034629aac2b29523f7a
+  content_hash: sha256:8904cf742d1a983f49a6a7b31304b48cf5b11a6783cf6910a275fc29926cf5a6
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-azure-diagnose.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-azure-diagnose.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-azure-diagnose.agent.md: sha256:977f5100eacb977812e009d028a1986e5ea0261a86a839060279284d57da880e
+  content_hash: sha256:846bbd80a4941e926f8a4920099669a55984a4e9c1cc23dac19bf3421193ad99
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-coordinator.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-coordinator.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-coordinator.agent.md: sha256:a30164f0c253f45276e9cc5580d11b121bab040d6d3a8a0fe9c1f51b974a8433
+  content_hash: sha256:6edfaa7d4e9defef34f07f6fa2c6ce623c70745bb45e5eb5c14d3d6f2afe6fe3
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-cost-manager.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-cost-manager.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-cost-manager.agent.md: sha256:e75ab667bd374cbcfe741caff71ef723a5ef4abf8f4d9b4a95f18a278446b056
+  content_hash: sha256:55d3b15d7a44c0dbb75143d70a14198cd57d8be2e37f794d3b69f9b73a1bbc57
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-deployer.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-deployer.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-deployer.agent.md: sha256:c22a7d5ffd2db7bcff33b45454ff94470393067aee7f3aae3ff1f7ebaea2ec76
+  content_hash: sha256:cce395bd76336d20af0156cbcbb638f049dfd0f69687751268fec98494efe91f
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-iac-author.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-iac-author.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-iac-author.agent.md: sha256:292d4e7e53672cb12dec13be02e9f4c5d4976464b0bc3e0e8b98ed18d671ba15
+  content_hash: sha256:0517486bf0e2ffe08c9f5b605dc430071c4dc863986bfde7252521c1b2ff21f6
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-modernization-planner.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-modernization-planner.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-modernization-planner.agent.md: sha256:05842963fdd631b40e2a8a79f17d53e935228b275c9f5eff533f51119f312faf
+  content_hash: sha256:1bfa11e2d6b6aa3b286ab8fc9927359da62a5bafe0986619180dc29144de4b6d
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/agents/squad/squad-scribe.agent.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/agents/squad-scribe.agent.md
+  deployed_file_hashes:
+    .github/agents/squad-scribe.agent.md: sha256:9264ee049ebfa840d9f183d3fb3cfe7604d4de444b991495dab77ec90caad06c
+  content_hash: sha256:c3b79eee3e61b5f8120bb58c3a7a914abfd5d3c5352d1a24cd114e912acd9b08
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-autonomous.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-autonomous.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-autonomous.instructions.md: sha256:5b11e8dd54b8a7a25840a22436315e0cbbf4e4dec57b1b428122ae5d985bc130
+  content_hash: sha256:03925bf237d9ed8f3d101c3287ad8e31d9ff7f2ad19bea462323fe0d0a5ba308
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-autopilot.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-autopilot.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-autopilot.instructions.md: sha256:e59a5466f425238b59ab84ef6f83241b1c2cb90d21524236ce8fda1e482abcd2
+  content_hash: sha256:5413e25977b24945dc5ddd15671b3ace3bafd54ca0766a3e5bdf2a69343c729d
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-council.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-council.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-council.instructions.md: sha256:a62b195db99a2463d35f06f76a4595fb371d5e98f339ca80c76ede1aad67515d
+  content_hash: sha256:8e77f98be5d0fcbd355717a5f15b324377631278c9ff08e744db84f20fe77ea1
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-mcp-capability.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-mcp-capability.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-mcp-capability.instructions.md: sha256:7ef6eee8f6125f20061ce3b1e35130b04393bc099822c370d89b744b1f83d4e0
+  content_hash: sha256:b5d1b8299cb498d28de2bcc7cd15302093c0272c074d6d56c03129136e9dd23d
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-notifications.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-notifications.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-notifications.instructions.md: sha256:3a6fdb7147376df9ca4aa3fc13fab343fbb722a4398eaa6b114fb5459d89082c
+  content_hash: sha256:5d2cb5060a5848dc144401ca62148f9d5d550c6586c644f0fa3d30433787b188
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-roster.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-roster.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-roster.instructions.md: sha256:1d58bc8dc806c9f4257d70bcbd5bf261522cd999a25dc69706ff77df04a8ad60
+  content_hash: sha256:f9b783180c8f34718c175c52b4fd137551a51af5f272ee1636da9486d7e93b07
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-routing.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-routing.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-routing.instructions.md: sha256:23118ca70179f18063861e934993c34f6ccbdd39b3267122c15b7221ca97f1cf
+  content_hash: sha256:fda9d94cc2eac3e5663be305c9d966ecbbf68fd30db810ba787dfa1bfa0fa86e
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/instructions/squad/squad-state.instructions.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/instructions/squad-state.instructions.md
+  deployed_file_hashes:
+    .github/instructions/squad-state.instructions.md: sha256:4919e5604caec158b8331ec4ede8ce4550b15259a311aa4c51c0236209ec4c28
+  content_hash: sha256:5c1f710e7feba8456007362f453792d416feb90e2a2dd19b23b2403b5b2c8f6c
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/prompts/squad/squad.prompt.md
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: apm_package
+  deployed_files:
+  - .github/prompts/squad.prompt.md
+  deployed_file_hashes:
+    .github/prompts/squad.prompt.md: sha256:a21615d601665844842fc704d9b99e684b01354f61c277abb4fdfa648c042d9e
+  content_hash: sha256:21032e002e4564e31507080a24965ba3bc12b1d6cc64dbc0355c5161f03c7b2b
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/skills/azure-scaffold
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/azure-scaffold
+  content_hash: sha256:58b75652a9e3118fda9f56407aedcaed27580a664c74ba4046d0f45e7438b13f
+- repo_url: Peter-N91/hve-squad
+  host: github.com
+  resolved_commit: 6725e39a75f11e508a1fba2c71088b299a5237a8
+  virtual_path: squad-src/.github/skills/squad
+  is_virtual: true
+  depth: 2
+  resolved_by: Peter-N91/hve-squad
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/squad
+  content_hash: sha256:b37a17a2980ff806791f750ef3d79ef65760481920608966c22ddd9ea442706c
